@@ -66,18 +66,17 @@ function addEventListenersToOptions() {
     }
 }
 
-function checkAnswer(event){
+function checkAnswer(event) {
     let target = event.currentTarget.id;
-    console.log(target);
-    console.log(correctAnswer);
-    console.log(score);
-    if (target === correctAnswer){
+    if (target === correctAnswer) {
         score++;
-        console.log(score);
     };
-
-
-}
+    if (currentQuestionNumber <= maxQuestions) {
+        renderQuestion()
+    } else {
+        return window.location.assign('/end.html')
+     } 
+    }
 
 
 function renderCounter() {
