@@ -56,7 +56,11 @@ function checkAnswer(event){
     let target = event.currentTarget.id;
     console.log(target);
     console.log(correctAnswer);
-    if (target === correctAnswer){};
+    console.log(score);
+    if (target === correctAnswer){
+        score++;
+        console.log(score);
+    };
 
 
 }
