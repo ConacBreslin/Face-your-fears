@@ -33,8 +33,6 @@ function setMaxNumber(event) {
     }
 
 }
-
-
 // funtion to display question and options and increase current question number
 function renderQuestion() {
     if (availableQuestions.length === 0 || currentQuestionNumber >= maxQuestions) {
