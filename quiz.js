@@ -75,6 +75,11 @@ function checkAnswer(event) {
         renderQuestion()
     } else {
         return window.location.assign('/end.html')
+        /* or may choose to do this
+        clearInterval(TIMER);
+    renderFinalResult();
+    */ 
+   
      } 
     }
 
