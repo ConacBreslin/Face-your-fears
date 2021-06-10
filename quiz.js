@@ -5,18 +5,34 @@ let optionC = document.getElementById("C");
 let optionD = document.getElementById("D");
 let counter = document.getElementById("timeRemainingArea");
 let options = document.getElementsByClassName("option");
+let playerPickNumber = document.getElementById("playerPickNumber");
+let pickMax = document.getElementById("pickMax");
+let form = document.getElementById("pickForm");
 
-var correctAnswer; 
+var correctAnswer;
 let currentQuestionNumber = 0;
 let score = 0;
 let availableQuesions = [];
-let maxQuestions = 10;
+let maxQuestions;
 let TIMER;
 let questionTime = 10;
 let gaugeWidth = 150;
 let gaugeUnit = gaugeWidth / questionTime;
 
+// set maximum number of questions
+pickMax.addEventListener("click", setMaxNumber)
+function setMaxNumber(event) {
+    event.preventDefault();
+    maxQuestions = playerPickNumber.value;
+    console.log(maxQuestions);
+    if (maxQuestions <= 50) {
+        pickForm.classList.add("d-none");
+        startQuiz();
+    }else{
+        alert("You must pick a number between 1 and 50");
+    }
 
+}
 
 
 // funtion to display question and options and increase current question number
