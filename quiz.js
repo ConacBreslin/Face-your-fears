@@ -8,7 +8,6 @@ let options = document.getElementsByClassName("option");
 
 var correctAnswer; 
 let currentQuestionNumber = 0;
-let count;
 let score = 0;
 let availableQuesions = [];
 let maxQuestions = 10;
@@ -30,9 +29,8 @@ function renderQuestion() {
     let questionIndex = Math.floor(Math.random() * availableQuestions.length); // create a random number based on number of questions available
 
     currentQuestion = availableQuestions[questionIndex];
- // sets phobia to be guessed
-    phobia.innerHTML = `<p>${currentQuestion.phobia} is the fear of ...</p>`;
-     // sets four different options 
+
+    phobia.innerHTML = `<p>${currentQuestion.phobia} is the fear of ...</p>`; // set phobia to be guessed
     optionA.innerHTML = `<p>${currentQuestion.choiceA.icon}</p><p>${currentQuestion.choiceA.name}</p>`
 
     optionB.innerHTML = `<p>${currentQuestion.choiceB.icon}</p><p>${currentQuestion.choiceB.name}</p>`
@@ -40,7 +38,7 @@ function renderQuestion() {
     optionC.innerHTML = `<p>${currentQuestion.choiceC.icon}</p><p>${currentQuestion.choiceC.name}</p>`
 
     optionD.innerHTML = `<p>${currentQuestion.choiceD.icon}</p><p>${currentQuestion.choiceD.name}</p>`
-   
+    // sets four different options 
     correctAnswer = currentQuestion.correct
     availableQuestions.splice(questionIndex, 1); //remove question used from available question array
 
@@ -59,13 +57,13 @@ function checkAnswer(event){
     console.log(target);
     console.log(correctAnswer);
     if (target === correctAnswer){};
-    
+
 
 }
 
 
 function renderCounter() {
-    count = 10;
+    let count = 10;
     if (count <= questionTime) {
         counter.innerHTML = count;
         // timeGauge.style.width = count * gaugeUnit;
@@ -107,7 +105,6 @@ function startQuiz() {
     renderQuestion(); // display question and options and increase current question number
     renderCounter(); // display time remaining for each question
     TIMER = setInterval(renderCounter, 1000); // call timer every second
-    checkAnswer()
     
 
 }
