@@ -53,14 +53,13 @@ function addEventListenersToOptions() {
         i.addEventListener('click', checkAnswer);
     }
 }
+
 function checkAnswer(event){
     let target = event.currentTarget.id;
     console.log(target);
     console.log(correctAnswer);
     if (target === correctAnswer){};
-    score++;
-    console.log(score);
-
+    
 
 }
 
