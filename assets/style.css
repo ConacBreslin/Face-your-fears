@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+
+body {
+    font-family: "Metrophobic", sans-serif;
+    background-color: #e1f2fe;
+    color: #1a1b41;
+    font-size: 2rem;
+}
+
+.correct {
+ background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
