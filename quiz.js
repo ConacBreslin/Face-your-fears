@@ -18,18 +18,20 @@ let TIMER;
 let questionTime = 10;
 let gaugeWidth = 150;
 let gaugeUnit = gaugeWidth / questionTime;
+let classToApply;
 
 // set maximum number of questions
-pickMax.addEventListener("click", setMaxNumber)
+pickMax.addEventListener("click", setMaxNumber);
+
 function setMaxNumber(event) {
     event.preventDefault();
     maxQuestions = playerPickNumber.value;
     console.log(maxQuestions);
-    if (maxQuestions <= 50) {
+    if (maxQuestions <= 20) {
         pickForm.classList.add("d-none");
         startQuiz();
     }else{
-        alert("You must pick a number between 1 and 50");
+        alert("You must pick a number between 1 and 20");
     }
 
 }
@@ -67,21 +69,24 @@ function addEventListenersToOptions() {
 }
 
 function checkAnswer(event) {
-    let target = event.currentTarget.id;
-    if (target === correctAnswer) {
-        score++;
-    };
-    if (currentQuestionNumber <= maxQuestions) {
-        renderQuestion()
-    } else {
-        return window.location.assign('/end.html')
-        /* or may choose to do this
-        clearInterval(TIMER);
-    renderFinalResult();
-    */ 
+    let targetValue = event.currentTarget.id;
+    let targetElement = event.currentTarget;
+    console.log({correctAnswer});
+    console.log(targetValue);
    
-     } 
+    if (targetValue === correctAnswer) {
+        score++;
+        classToApply = "correct";
+        targetElement.classList.add(classToApply);
+        setTimeout(function(event){ targetElement.classList.remove(classToApply); renderQuestion();}, 1000)
+    } else {
+        classToApply = "incorrect";
+        targetElement.classList.add(classToApply);
+        setTimeout(function(event){ targetElement.classList.remove(classToApply); renderQuestion(); }, 1000)
+            
+    } 
     }
+
 
 
 function renderCounter() {
