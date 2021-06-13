@@ -40,9 +40,9 @@ function setMaxNumber(event) {
 }
 // funtion to display question and options and increase current question number
 function renderQuestion() {
-    if (availableQuestions.length === 0 || currentQuestionNumber >= maxQuestions) {
-        //go to end page
-        return window.location.assign('/end.html')
+    if (currentQuestionNumber >= maxQuestions) {
+        //go to finalscore page
+        return window.location.assign('/finalscore.html')
     }
     currentQuestionNumber++;
     hudQuestion.innerText = `Question: ${currentQuestionNumber}/${maxQuestions}`;
