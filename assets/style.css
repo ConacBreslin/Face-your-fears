@@ -21,11 +21,12 @@ body {
     width: 20rem;
     height: 3rem;
     border: 0.3rem solid #1a1b41;
-    border-radius: 60%;
+    border-radius: 50%;
 }
 #progressBarFull {
-    height: 3.5rem;
+    height: 2.5rem;
     background-color: #1a1b41;
+    border-radius: 50%;
     width: 0%;
     
 }
