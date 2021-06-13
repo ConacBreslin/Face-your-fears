@@ -32,7 +32,7 @@ The wireframes for this here [mobile](assets/wireframes/mobile-wireframe.png), [
 ### Imagery
 The welcome page from [pexels.com](https://pexels.com/) and was chosen to convey the theme of the quiz.
 ### Colour scheme
-It was important to keep the colour scheme of the quiz extremely simple, but not too stark. Information on the psychology of colours [website here] indicated that a blue theme would suggest reliability and trust worthiness 
+It was important to keep the colour scheme of the quiz extremely simple, but not too stark. Information on the psychology of colours [website here] indicate that a blue suggests steadfastness, dependability,and wisdom, so in keeping with both these onjectives very pale blue was chosen for teh backgound with a darker blue for the font colour.
 ### Typography
 Information on the psychology of fonts [website here] indicated that a sans serif font suggests The Metrohobic font was selected in [Google Fonts](https://fonts.google.com/) for its clarity and its name's resonance with the quiz's theme!
 ## Features

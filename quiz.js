@@ -29,8 +29,7 @@ pickMax.addEventListener("click", setMaxNumber);
 function setMaxNumber(event) {
     event.preventDefault();
     maxQuestions = playerPickNumber.value;
-    console.log(maxQuestions);
-    if (maxQuestions <= 20) {
+        if (maxQuestions <= 20) {
         pickForm.classList.add("d-none");
         startQuiz();
     }else{
@@ -41,6 +40,9 @@ function setMaxNumber(event) {
 // funtion to display question and options and increase current question number
 function renderQuestion() {
     if (currentQuestionNumber >= maxQuestions) {
+        console.log(score);
+        localStorage.setItem("finalScore", score);
+        localStorage.setItem("maxQuestions", maxQuestions);
         //go to finalscore page
         return window.location.assign('/finalscore.html')
     }
@@ -108,8 +110,8 @@ function startQuiz() {
     availableQuestions = [...questions]; // move all questions from question.js to available questions array
 
     renderQuestion(); // display question and options and increase current question number
-    renderCounter(); // display time remaining for each question
-    TIMER = setInterval(renderCounter, 1000); // call timer every second
+    // renderCounter(); // display time remaining for each question
+   // TIMER = setInterval(renderCounter, 1000); // call timer every second
     
 
 }
