@@ -95,7 +95,8 @@ It was viewed on a variety of devices. Friends and family members reviewed the q
 ## Deployment
 ## Credits
 ## Acknowledgements
-I would like to thank many tutors in Code Institute for being unfailingly helpful and nice, in particular Sean, John, Jo,, Mikos, Tim, Jo, Igor and Fatima. 
+I would like to thank my mentor Chris Quinn whose advice is always perfectly judged.
+I would like to thank many tutors in Code Institute for being unfailingly helpful and nice, in particular Sean, John, Jo,. 
 I would like to thank Auke from Code Institute for her [excellent presentation](https:) on preparation for MS2 projects that helped me enourmously is getting started.
 I would like to thank my fearless family and friends for support and feedback and on the quiz.
 
