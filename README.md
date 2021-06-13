@@ -1,8 +1,8 @@
 # **Face Your Fears - A Quiz about Phobias**
 Phobias are a common pub quiz category and this quiz was designed to give players an easy and fun way to test their knowledge of the definitions of phobias.  
-![Face Your Fears main page image](assets/images/)
+[Face Your Fears main page image](assets/images/)
 ## Visit the deployed website
-[![Face Your Fears website]"Visit the deployed site here")](https://conacbreslin.github.io/)
+[[Face Your Fears website]"Visit the deployed site here")](https://conacbreslin.github.io/)
 ## User Experience (UX)
 A player would want to test their knowledge of phobias definitions
 On visiting the site they should be able to 
@@ -23,7 +23,7 @@ Functional requirements; 	    To provide a bank of relevent questions, a means o
 
 Non-functional requirements; 	The quiz should be simple, attractive and intuitive to facilitate players of any age or technical ability.
 ## Structure
-The quiz will have 3 pages, A welcome page, A quiz page that displayes the questions and progress (progress through the quiz and score) and a page for the final result. The quiz should automatically usher the player through all the stages of the quiz once they start through to the end. At the end they should be able to quit or replay.
+The quiz will have 3 pages, A welcome page, a quiz page and a page for the final result. The quiz should automatically usher the player through all the stages of the quiz once they start through to the end. At the end they should be able to quit or replay.
 ## Skeleton
 The welcome page  explains what the quiz is about and how to play and a button to get started. 
 The quiz page starts  with the player picking how many questions they want to answer, the quiz then automatically displays a question, a progress bar to indicate the players progress thought the quiz, a tally of their score and  a timer for each question. Once the player selects an answer the quiz will check the answer, update the score, progress and timer  and disply a new question until the player has answered the number of questions they initially selected.
@@ -54,7 +54,7 @@ In the future might
 
 [CSS](https://en.wikipedia.org/wiki/CSS)
 
-[]()
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 ## Frameworks, Libraries and online resources used
 - [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
 - Gits's [gitpod](https://www.gitpod.io/) was used for writing and editing code, and for submitting and pushing to GitHub.

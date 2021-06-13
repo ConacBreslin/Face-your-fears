@@ -8,6 +8,9 @@ let options = document.getElementsByClassName("option");
 let playerPickNumber = document.getElementById("playerPickNumber");
 let pickMax = document.getElementById("pickMax");
 let form = document.getElementById("pickForm");
+let hudQuestion = document.getElementById("hudQuestion");
+let hudScore = document.getElementById("hudScore");
+let progressBarFull = document.getElementById("progressBarFull")
 
 var correctAnswer;
 let currentQuestionNumber = 0;
@@ -42,6 +45,9 @@ function renderQuestion() {
         return window.location.assign('/end.html')
     }
     currentQuestionNumber++;
+    hudQuestion.innerText = `Question: ${currentQuestionNumber}/${maxQuestions}`;
+    //UpdateProgressBar
+    progressBarFull.style.width = `${(currentQuestionNumber/maxQuestions) * 100}%`;
     let questionIndex = Math.floor(Math.random() * availableQuestions.length); // create a random number based on number of questions available
 
     currentQuestion = availableQuestions[questionIndex];
@@ -71,11 +77,11 @@ function addEventListenersToOptions() {
 function checkAnswer(event) {
     let targetValue = event.currentTarget.id;
     let targetElement = event.currentTarget;
-    console.log({correctAnswer});
-    console.log(targetValue);
-   
+       
     if (targetValue === correctAnswer) {
         score++;
+        hudScore.innerText = `${score}`;
+        classToApply = "correct";
         classToApply = "correct";
         targetElement.classList.add(classToApply);
         setTimeout(function(event){ targetElement.classList.remove(classToApply); renderQuestion();}, 1000)
@@ -89,34 +95,6 @@ function checkAnswer(event) {
 
 
 
-function renderCounter() {
-    let count = 10;
-    if (count <= questionTime) {
-        counter.innerHTML = count;
-        // timeGauge.style.width = count * gaugeUnit;
-        count--
-    } else {
-        count = 10
-    }
-}
-
-
-
-//code to check answer
-/*
-function checkAnswer(answer) {
-    if (answer === question[currentQuestionNumber].correct) {
-        score++
-    }
-    count = 10;
-    if (currentQuestionNumber < maxQuestions) {
-        runningQuestion++;
-        renderQuestion()
-    } else
-        clearInterval(TIMER);
-    renderFinalResult();
-}
-*/
 
 
 
