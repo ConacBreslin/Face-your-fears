@@ -15,3 +15,17 @@ body {
 .incorrect {
     background-color: red;
 }
+
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.3rem solid #1a1b41;
+    border-radius: 60%;
+}
+#progressBarFull {
+    height: 3.5rem;
+    background-color: #1a1b41;
+    width: 0%;
+    
+}
