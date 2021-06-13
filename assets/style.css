@@ -16,17 +16,15 @@ body {
     background-color: red;
 }
 
-
 #progressBar {
     width: 20rem;
-    height: 3rem;
+    height: 2.5rem;
     border: 0.3rem solid #1a1b41;
-    border-radius: 50%;
+    
 }
 #progressBarFull {
-    height: 2.5rem;
+    height: 1.9rem;
     background-color: #1a1b41;
-    border-radius: 50%;
-    width: 0%;
-    
+        width: 10%;
+   
 }
