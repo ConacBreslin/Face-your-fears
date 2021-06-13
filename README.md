@@ -94,6 +94,7 @@ It was viewed on a variety of devices. Friends and family members reviewed the q
 ## Known Bugs
 ## Deployment
 ## Credits
+- I took much inspiration from the following quiz tutorials on quizes [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), [James Q Quick ](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), 
 ## Acknowledgements
 I would like to thank my mentor Chris Quinn whose advice is always perfectly judged.
 I would like to thank many tutors in Code Institute for being unfailingly helpful and nice, in particular Sean, John, Jo,. 
