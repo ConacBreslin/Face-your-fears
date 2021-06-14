@@ -65,6 +65,7 @@ In the future might
 - Colours were identified in photos using [IMAGECOLORPICKER.com](https://imagecolorpicker.com/).
 - Colour palette was generated using [coolors.co](https://coolors.co/).
 - Foreground/Brackgound contrast as checked using [webaim.org](https://webaim.org/resources/contrastchecker/).
+The favicon was downloaded from [favicon.io](https://favicon.io/favicon-generator/)
 - tutorials from [XV.com](https://www.), [XV.com](https://www.), [XV.com](https://www.) were followed in designing the features of the quiz.
 ## Testing
 ### Validation.
@@ -94,7 +95,8 @@ It was viewed on a variety of devices. Friends and family members reviewed the q
 ## Known Bugs
 ## Deployment
 ## Credits
-- I took much inspiration from the following quiz tutorials on quizes [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), [James Q Quick ](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2850s), 
+- I took much inspiration from the following quiz tutorials on quizes [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), [James Q Quick ](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2850s).
+The favicon emoji originated from [](https://twemoji.twitter.com/)
 ## Acknowledgements
 I would like to thank my mentor Chris Quinn whose advice is always perfectly judged.
 I would like to thank many tutors in Code Institute for being unfailingly helpful and nice, in particular Sean, John, Jo,. 
