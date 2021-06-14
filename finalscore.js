@@ -15,7 +15,12 @@ let phunnyFauxbias = ['Nomophobia - The fear not having a working mobile phone',
 'Keanuphobia – The fear of the actor Keanu Reeves', 
 'Kinemortophobia – The fear of Zombies', 
 'Zemmiphobia - Fear of the Great Mole Rat',
-'Pogonophobia – The fear of Beards'];
+'Pogonophobia – The fear of Beards',
+'Condylacousticophobia - The fear of the sound of cracking knuckles',
+'Gowiththeflowbia - The fear of being relaxed',
+'Arachnurinalphobia - The fear of spiders in your toilet',
+'Hippopotomonstrosesquippedaliophobia - The fear of long words'
+];
 let phunnyFauxbiaIndex = Math.floor(Math.random() * phunnyFauxbias.length);
 console.log(phunnyFauxbiaIndex)
 let randomPhunnyFauxbia = phunnyFauxbias[phunnyFauxbiaIndex];
