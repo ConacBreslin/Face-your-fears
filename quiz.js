@@ -58,6 +58,7 @@ function renderQuestion() {
         //go to finalscore page
         return window.location.assign('/finalscore.html')
     }
+    count = questionTime;
     currentQuestionNumber++;
     hudQuestion.innerText = `Question ${currentQuestionNumber} of ${maxQuestions}`;
     //UpdateProgressBar
@@ -82,13 +83,11 @@ function renderQuestion() {
 }
 
 function renderTimeRemaining(){
-    if (count <= questionTime && count >=1)
-    {
-        timeRemaining.innerHTML = `<p>Time remaining is ${count} seconds</p>`;
-        count--
-            }else{
-                renderQuestion();
-        count = 15;
+    if (count <= questionTime && count >=1) {
+    timeRemaining.innerHTML = `<p>Time remaining is ${count} seconds</p>`;
+        count -= 1 ;
+    } else {
+        renderQuestion();
     }
 }
 
@@ -131,7 +130,7 @@ function startQuiz() {
     renderQuestion(); 
     // renderCounter(); // display time remaining for each question
     renderTimeRemaining();
-   // call timer every secong
+   // call timer every second
    timer = setInterval(renderTimeRemaining, 1000); // call timer every second
     
 
