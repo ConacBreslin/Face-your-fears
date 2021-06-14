@@ -7,7 +7,7 @@ let timeRemaining = document.getElementById("timeRemainingArea");
 let options = document.getElementsByClassName("option");
 let playerPickNumber = document.getElementById("playerPickNumber");
 let pickMax = document.getElementById("pickMax");
-let form = document.getElementById("pickForm");
+let pickForm = document.getElementById("pickForm");
 let hudQuestion = document.getElementById("hudQuestion");
 let hudScore = document.getElementById("hudScore");
 let progressBarFull = document.getElementById("progressBarFull");
@@ -15,6 +15,7 @@ let progressBarFull = document.getElementById("progressBarFull");
 
 var correctAnswer;
 let currentQuestionNumber = 0;
+let currentQuestion;
 let score = 0;
 let availableQuesions = [];
 let maxQuestions;
@@ -24,6 +25,7 @@ let questionTime = 15;
 let timer;
 
 // set maximum number of questions
+
 pickMax.addEventListener("click", setMaxNumber);
 
 function setMaxNumber(event) {
@@ -35,8 +37,18 @@ function setMaxNumber(event) {
     }else{
         alert("You must pick a number between 1 and 20");
     }
-
 }
+//add event listeners to Options
+
+addEventListenersToOptions();
+
+function addEventListenersToOptions() {
+    for (let i of options) {
+        i.addEventListener('click', checkAnswer);
+    }
+}
+
+
 // funtion to display question and options and increase current question number
 function renderQuestion() {
     if (currentQuestionNumber >= maxQuestions) {
@@ -66,13 +78,13 @@ function renderQuestion() {
     correctAnswer = currentQuestion.correct
     availableQuestions.splice(questionIndex, 1); //remove question used from available question array
 
-    addEventListenersToOptions();
+    
 }
 
 function renderTimeRemaining(){
     if (count <= questionTime && count >=1)
     {
-        counter.innerHTML = `<p>Time remaining is ${count} seconds</p>`;
+        timeRemaining.innerHTML = `<p>Time remaining is ${count} seconds</p>`;
         count--
             }else{
                 renderQuestion();
@@ -81,11 +93,7 @@ function renderTimeRemaining(){
 }
 
 
-function addEventListenersToOptions() {
-    for (let i of options) {
-        i.addEventListener('click', checkAnswer);
-    }
-}
+
 
 function checkAnswer(event) {
     let targetValue = event.currentTarget.id;
