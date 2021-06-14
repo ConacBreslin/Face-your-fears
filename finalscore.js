@@ -1,10 +1,9 @@
 let finalScoreText = document.getElementById("finalScoreText");
 let phunnyFauxbiaText = document.getElementById("phunnyFauxbia");
 
-
-
 let finalScore = localStorage.getItem("finalScore");
 let maxQuestions = localStorage.getItem("maxQuestions")
+
 let finalScorePercent = Math.round(finalScore / maxQuestions * 100);
 let phunnyFauxbias = ['Nomophobia - The fear not having a working mobile phone', 
 'Aibohphobia - The Fear of Palindromes', 
@@ -22,12 +21,7 @@ let phunnyFauxbias = ['Nomophobia - The fear not having a working mobile phone',
 'Hippopotomonstrosesquippedaliophobia - The fear of long words'
 ];
 let phunnyFauxbiaIndex = Math.floor(Math.random() * phunnyFauxbias.length);
-console.log(phunnyFauxbiaIndex)
 let randomPhunnyFauxbia = phunnyFauxbias[phunnyFauxbiaIndex];
-console.log(randomPhunnyFauxbia);
-
-
-
 
 finalScoreText.innerHTML  = (finalScorePercent >= 80) ? `<p><i class="far fa-grin-stars"></i>Congratulations! You scored ${finalScorePercent}%, You are fearless!</p>`:
 (finalScorePercent >= 60 ) ? `<p><i class="far fa-smile-beam"></i>Well Done! You scored ${finalScorePercent}%, You have no fear!</p>`:
