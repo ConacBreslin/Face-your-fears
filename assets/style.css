@@ -8,6 +8,10 @@ body {
     font-size: 2rem;
 }
 
+.options{
+        border: 3px solid #001a4d;
+}
+
 .correct {
  background-color: green;
 }

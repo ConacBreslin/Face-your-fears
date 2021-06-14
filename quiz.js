@@ -91,7 +91,7 @@ function checkAnswer(event) {
     let targetElement = event.currentTarget;
     if (targetValue === correctAnswer) {
         score++;
-        hudScore.innerText = `${score}`;
+        hudScore.innerHTML = `<p>Score: <br>${score}</p>`;
         classToApply = "correct";
         targetElement.classList.add(classToApply);
         setTimeout(function (event) {
