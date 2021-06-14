@@ -10,7 +10,8 @@ let pickMax = document.getElementById("pickMax");
 let form = document.getElementById("pickForm");
 let hudQuestion = document.getElementById("hudQuestion");
 let hudScore = document.getElementById("hudScore");
-let progressBarFull = document.getElementById("progressBarFull")
+let progressBarFull = document.getElementById("progressBarFull");
+
 
 var correctAnswer;
 let currentQuestionNumber = 0;
@@ -69,17 +70,15 @@ function renderQuestion() {
 }
 
 function renderTimeRemaining(){
-    if (count <= questionTime && count >=0)
+    if (count <= questionTime && count >=1)
     {
-        timeRemaining.innerHTML = `<p>Time remaining is ${count} seconds</p>`;
-        count--;
+        counter.innerHTML = `<p>Time remaining is ${count} seconds</p>`;
+        count--
             }else{
-                
                 renderQuestion();
         count = 15;
-    };
+    }
 }
-
 
 
 function addEventListenersToOptions() {
