@@ -11,6 +11,7 @@ let pickForm = document.getElementById("pickForm");
 let hudQuestion = document.getElementById("hudQuestion");
 let hudScore = document.getElementById("hudScore");
 let progressBarFull = document.getElementById("progressBarFull");
+let quizArea = document.getElementById("quizArea");
 
 var correctAnswer;
 let currentQuestionNumber = 0;
@@ -32,8 +33,8 @@ function setMaxNumber(event) {
     maxQuestions = playerPickNumber.value;
     if (maxQuestions <= 20) {
         pickForm.classList.add("d-none");
-        startQuiz();
-    } else {
+        quizArea.classList.remove("d-none");
+            } else {
         alert("You must pick a number between 1 and 20");
     }
 }
@@ -55,7 +56,7 @@ function renderQuestion() {
         localStorage.setItem("finalScore", score);
         localStorage.setItem("maxQuestions", maxQuestions);
         //go to finalscore page
-        return window.location.assign('/finalscore.html')
+        return window.location.assign('/finalscore.html');
     }
     count = questionTime;
     currentQuestionNumber++;
@@ -65,19 +66,19 @@ function renderQuestion() {
     let questionIndex = Math.floor(Math.random() * availableQuestions.length); // create a random number based on number of questions available
     currentQuestion = availableQuestions[questionIndex];
     phobia.innerHTML = `<p>${currentQuestion.phobia} is the fear of ...</p>`; // set phobia to be guessed
-    optionA.innerHTML = `<p>${currentQuestion.choiceA.icon}</p><p>${currentQuestion.choiceA.name}</p>`
-    optionB.innerHTML = `<p>${currentQuestion.choiceB.icon}</p><p>${currentQuestion.choiceB.name}</p>`
-    optionC.innerHTML = `<p>${currentQuestion.choiceC.icon}</p><p>${currentQuestion.choiceC.name}</p>`
-    optionD.innerHTML = `<p>${currentQuestion.choiceD.icon}</p><p>${currentQuestion.choiceD.name}</p>`
+    optionA.innerHTML = `<p>${currentQuestion.choiceA.icon}</p><p>${currentQuestion.choiceA.name}</p>`;
+    optionB.innerHTML = `<p>${currentQuestion.choiceB.icon}</p><p>${currentQuestion.choiceB.name}</p>`;
+    optionC.innerHTML = `<p>${currentQuestion.choiceC.icon}</p><p>${currentQuestion.choiceC.name}</p>`;
+    optionD.innerHTML = `<p>${currentQuestion.choiceD.icon}</p><p>${currentQuestion.choiceD.name}</p>`;
     // sets four different options 
-    correctAnswer = currentQuestion.correct
+    correctAnswer = currentQuestion.correct;
     availableQuestions.splice(questionIndex, 1); //remove question used from available question array
 }
 
 // function to set time remaining for each question
 function renderTimeRemaining() {
     if (count <= questionTime && count >= 0) {
-        timeRemaining.innerHTML = `<p>Time remaining fo this question is ${count} seconds</p>`;
+        timeRemaining.innerHTML = `<p>Time remaining for this question is ${count} seconds</p>`;
         count -= 1;
     } else {
         renderQuestion();
@@ -96,14 +97,14 @@ function checkAnswer(event) {
         setTimeout(function (event) {
             targetElement.classList.remove(classToApply);
             renderQuestion();
-        }, 1000)
+        }, 1000);
     } else {
         classToApply = "incorrect";
         targetElement.classList.add(classToApply);
         setTimeout(function (event) {
             targetElement.classList.remove(classToApply);
             renderQuestion();
-        }, 1000)
+        }, 1000);
     }
 }
 
@@ -117,9 +118,10 @@ function startQuiz() {
     // display question and options and increase current question number
     renderQuestion();
     // renderCounter(); // display time remaining for each question
-    renderTimeRemaining();
-    // call timer every second
-    timer = setInterval(renderTimeRemaining, 1000); // call timer every second
+  
+    // call renderTimeRemaining every second
+    timer = setInterval(renderTimeRemaining, 1000); 
+   
 }
 
 startQuiz();
