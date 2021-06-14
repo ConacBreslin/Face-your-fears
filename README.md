@@ -64,7 +64,7 @@ In the future might
 - Photos were used from 
 - Colours were identified in photos using [IMAGECOLORPICKER.com](https://imagecolorpicker.com/).
 - Colour palette was generated using [coolors.co](https://coolors.co/).
-- Foreground/Brackgound contrast as checked using [webaim.org](https://webaim.org/resources/contrastchecker/).
+- Foreground/Brackgound contrast as checked using [contrast-ratio.com](https://contrast-ratio.com/).
 The favicon was downloaded from [favicon.io](https://favicon.io/favicon-generator/)
 - tutorials from [XV.com](https://www.), [XV.com](https://www.), [XV.com](https://www.) were followed in designing the features of the quiz.
 ## Testing
