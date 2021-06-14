@@ -3,7 +3,7 @@ let optionA = document.getElementById("A");
 let optionB = document.getElementById("B");
 let optionC = document.getElementById("C");
 let optionD = document.getElementById("D");
-let counter = document.getElementById("timeRemainingArea");
+let timeRemaining = document.getElementById("timeRemainingArea");
 let options = document.getElementsByClassName("option");
 let playerPickNumber = document.getElementById("playerPickNumber");
 let pickMax = document.getElementById("pickMax");
@@ -17,11 +17,10 @@ let currentQuestionNumber = 0;
 let score = 0;
 let availableQuesions = [];
 let maxQuestions;
-let TIMER;
-let questionTime = 10;
-let gaugeWidth = 150;
-let gaugeUnit = gaugeWidth / questionTime;
 let classToApply;
+let count = 15;
+let questionTime = 15;
+let timer;
 
 // set maximum number of questions
 pickMax.addEventListener("click", setMaxNumber);
@@ -47,7 +46,7 @@ function renderQuestion() {
         return window.location.assign('/finalscore.html')
     }
     currentQuestionNumber++;
-    hudQuestion.innerText = `Question: ${currentQuestionNumber}/${maxQuestions}`;
+    hudQuestion.innerText = `Question ${currentQuestionNumber} of ${maxQuestions}`;
     //UpdateProgressBar
     progressBarFull.style.width = `${(currentQuestionNumber/maxQuestions) * 100}%`;
     let questionIndex = Math.floor(Math.random() * availableQuestions.length); // create a random number based on number of questions available
@@ -68,6 +67,19 @@ function renderQuestion() {
 
     addEventListenersToOptions();
 }
+
+function renderTimeRemaining(){
+    if (count <= questionTime && count >=0)
+    {
+        timeRemaining.innerHTML = `<p>Time remaining is ${count} seconds</p>`;
+        count--;
+            }else{
+                
+                renderQuestion();
+        count = 15;
+    };
+}
+
 
 
 function addEventListenersToOptions() {
@@ -106,12 +118,14 @@ function startQuiz() {
     score = 0;
 
     currentQuestionNumber = 0;
-
-    availableQuestions = [...questions]; // move all questions from question.js to available questions array
-
-    renderQuestion(); // display question and options and increase current question number
+// move all questions from question.js to available questions array
+    availableQuestions = [...questions]; 
+// display question and options and increase current question number
+    renderQuestion(); 
     // renderCounter(); // display time remaining for each question
-   // TIMER = setInterval(renderCounter, 1000); // call timer every second
+    renderTimeRemaining();
+   // call timer every secong
+   timer = setInterval(renderTimeRemaining, 1000); // call timer every second
     
 
 }
