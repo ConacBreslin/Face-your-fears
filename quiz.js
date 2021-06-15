@@ -20,8 +20,8 @@ let score = 0;
 let availableQuesions = [];
 let maxQuestions;
 let classToApply;
-let count = 15;
-let questionTime = 15;
+let count = 10;
+let questionTime = 10;
 let timer;
 
 // set maximum number of questions
