@@ -56,7 +56,7 @@ function renderQuestion() {
         localStorage.setItem("finalScore", score);
         localStorage.setItem("maxQuestions", maxQuestions);
         //go to finalscore page
-        return window.location.assign('/finalscore.html');
+        return window.location.assign('finalscore.html');
     }
     count = questionTime;
     currentQuestionNumber++;
@@ -117,8 +117,6 @@ function startQuiz() {
     availableQuestions = [...questions];
     // display question and options and increase current question number
     renderQuestion();
-    // renderCounter(); // display time remaining for each question
-  
     // call renderTimeRemaining every second
     timer = setInterval(renderTimeRemaining, 1000); 
    
