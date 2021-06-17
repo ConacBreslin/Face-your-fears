@@ -29,4 +29,5 @@ finalScoreText.innerHTML  = (finalScorePercent >= 80) ? `<p><i class="far fa-gri
 (finalScorePercent >= 20) ? `<p><i class="far fa-sad-tear"></i> You scored ${finalScorePercent}%, Were you a little scared by this quiz?</p>`:
 `<p><i class="far fa-sad-cry"></i> Oh dear, you only scored ${finalScorePercent}%, This quiz must have terrified you</p>`;
 
-phunnyFauxbiaText.innerHTML = `<p>Here is a random Phunny Fauxbia for you <br>"${randomPhunnyFauxbia}"</p>`
+phunnyFauxbiaText.innerHTML = `<p>Here is a random Phunny Fauxbia for you <br>"${randomPhunnyFauxbia}"</p>`;
+localStorage.removeItem("maxQuestions");

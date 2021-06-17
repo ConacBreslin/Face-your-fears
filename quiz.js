@@ -30,14 +30,18 @@ pickMax.addEventListener("click", setMaxNumber);
 
 function setMaxNumber(event) {
     event.preventDefault();
+    
     maxQuestions = playerPickNumber.value;
-    if (maxQuestions <= 20) {
+    localStorage.setItem("maxQuestions", maxQuestions);
+        if (maxQuestions <= 20) {
         pickForm.classList.add("d-none");
         quizArea.classList.remove("d-none");
             } else {
         alert("You must pick a number between 1 and 20");
     }
+    startQuiz();
 }
+
 //add event listeners to Options
 
 addEventListenersToOptions();
@@ -45,21 +49,23 @@ addEventListenersToOptions();
 function addEventListenersToOptions() {
     for (let i of options) {
         i.addEventListener('click', checkAnswer);
+        
     }
+  
 }
 
 // function to display question and options,increase current question number and update progressbar in hud, 
 
 function renderQuestion() {
     if (currentQuestionNumber >= maxQuestions) {
-        console.log(score);
         localStorage.setItem("finalScore", score);
-        localStorage.setItem("maxQuestions", maxQuestions);
+       
         //go to finalscore page
         return window.location.assign('finalscore.html');
     }
     count = questionTime;
     currentQuestionNumber++;
+    
     hudQuestion.innerText = `Question ${currentQuestionNumber} of ${maxQuestions}`;
     //UpdateProgressBar
     progressBarFull.style.width = `${(currentQuestionNumber/maxQuestions) * 100}%`;
@@ -122,4 +128,3 @@ function startQuiz() {
    
 }
 
-startQuiz();
