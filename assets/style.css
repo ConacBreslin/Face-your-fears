@@ -3,13 +3,14 @@
 
 body {
     font-family: "Metrophobic", sans-serif;
-    background-color: #e6f2ff;
+    background-color: #dcdcdc;
     color: #001a4d;
     font-size: 2rem;
 }
 
-.options{
+.option{
         border: 3px solid #001a4d;
+        border-radius: 10%;
 }
 
 .correct {
@@ -22,12 +23,12 @@ body {
 
 #progressBar {
     width: 20rem;
-    height: 2.5rem;
+    height: 1.5rem;
     border: 0.3rem solid #1a1b41;
     
 }
 #progressBarFull {
-    height: 1.9rem;
+    height: 1.2rem;
     background-color: #1a1b41;
         width: 10%;
    
