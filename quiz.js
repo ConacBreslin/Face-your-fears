@@ -32,7 +32,6 @@ function setMaxNumber(event) {
     event.preventDefault();
     
     maxQuestions = playerPickNumber.value;
-    localStorage.setItem("maxQuestions", maxQuestions);
         if (maxQuestions <= 20) {
         pickForm.classList.add("d-none");
         quizArea.classList.remove("d-none");
@@ -58,8 +57,8 @@ function addEventListenersToOptions() {
 
 function renderQuestion() {
     if (currentQuestionNumber >= maxQuestions) {
-        localStorage.setItem("finalScore", score);
-       
+        localStorage.setItem("maxQuestions", maxQuestions)
+        localStorage.setItem("finalScore", score);    
         //go to finalscore page
         return window.location.assign('finalscore.html');
     }
