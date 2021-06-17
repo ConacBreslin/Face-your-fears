@@ -3,7 +3,7 @@
 
 body {
     font-family: "Metrophobic", sans-serif;
-    background-color: #dcdcdc;
+    background-color: #d2d4c8;
     color: #001a4d;
     font-size: 2rem;
 }
@@ -32,4 +32,13 @@ body {
     background-color: #1a1b41;
         width: 10%;
    
+}
+
+#play-instructions {
+    background-color: #fff;
+}
+
+.btn {
+    background-color: #1a1b41;
+    color: #fff;
 }
