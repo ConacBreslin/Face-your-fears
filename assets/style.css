@@ -5,12 +5,33 @@ body {
     font-family: "Metrophobic", sans-serif;
     background-color: #d2d4c8;
     color: #001a4d;
-    font-size: 2rem;
+    
 }
 
 h1 {
     font-size: 3.5rem;
-    font-weight: 900;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+h2 {
+    margin: 2rem;
+}
+
+ol {
+    margin-bottom: 1rem;
+
+}
+
+.btn {
+    margin: 1rem 0;
+}
+
+#welcome-subheading {
+    background-color: #fff;
+}
+
+#play-instructions {
+    background-color: #d2d4c8;
 }
 
 .option{
@@ -39,11 +60,9 @@ h1 {
    
 }
 
-#play-instructions {
-    background-color: #fff;
-}
+
 
 .btn {
-    background-color: #1a1b41;
-    color: #fff;
+    background-color: #001a4d;
+    color: #d2d4c8;
 }
