@@ -6,7 +6,7 @@ let maxQuestions = localStorage.getItem("maxQuestions")
 
 let finalScorePercent = Math.round(finalScore / maxQuestions * 100);
 let phunnyFauxbias = ['"Nomophobia" - The fear not having a working mobile phone', 
-'"Aibohphobia""""""""""""""""""""""" - The Fear of Palindromes', 
+'"Aibohphobia"- The Fear of Palindromes', 
 '"Anachrophobia" - The fear of being unstuck in time', 
 '"Anatidaephobia" - The fear that somewhere, somehow, a duck is watching you', 
 '"Luposlipaphobia" – The fear of being pursued by timber wolves around a kitchen table while wearing socks on a newly waxed floor', 
@@ -20,6 +20,8 @@ let phunnyFauxbias = ['"Nomophobia" - The fear not having a working mobile phone
 '"Arachnurinalphobia" - The fear of spiders in your toilet',
 '"Hippopotomonstrosesquippedaliophobia" - The fear of long words'
 ];
+
+
 let phunnyFauxbiaIndex = Math.floor(Math.random() * phunnyFauxbias.length);
 let randomPhunnyFauxbia = phunnyFauxbias[phunnyFauxbiaIndex];
 
