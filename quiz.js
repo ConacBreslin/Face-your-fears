@@ -26,13 +26,13 @@ let timer;
 
 // set maximum number of questions
 
+
 pickMax.addEventListener("click", setMaxNumber);
 
 function setMaxNumber(event) {
     event.preventDefault();
-    
     maxQuestions = playerPickNumber.value;
-        if (maxQuestions <= 20) {
+    if (maxQuestions <= 20) {
         pickForm.classList.add("d-none");
         quizArea.classList.remove("d-none");
             } else {
@@ -41,6 +41,7 @@ function setMaxNumber(event) {
     startQuiz();
 }
 
+
 //add event listeners to Options
 
 addEventListenersToOptions();
@@ -48,9 +49,9 @@ addEventListenersToOptions();
 function addEventListenersToOptions() {
     for (let i of options) {
         i.addEventListener('click', checkAnswer);
-        
+
     }
-  
+
 }
 
 // function to display question and options,increase current question number and update progressbar in hud, 
@@ -58,13 +59,13 @@ function addEventListenersToOptions() {
 function renderQuestion() {
     if (currentQuestionNumber >= maxQuestions) {
         localStorage.setItem("maxQuestions", maxQuestions)
-        localStorage.setItem("finalScore", score);    
+        localStorage.setItem("finalScore", score);
         //go to finalscore page
         return window.location.assign('finalscore.html');
     }
     count = questionTime;
     currentQuestionNumber++;
-    
+
     hudQuestion.innerText = `Question ${currentQuestionNumber} of ${maxQuestions}`;
     //UpdateProgressBar
     progressBarFull.style.width = `${(currentQuestionNumber/maxQuestions) * 100}%`;
@@ -123,7 +124,6 @@ function startQuiz() {
     // display question and options and increase current question number
     renderQuestion();
     // call renderTimeRemaining every second
-    timer = setInterval(renderTimeRemaining, 1000); 
-   
-}
+    timer = setInterval(renderTimeRemaining, 1000);
 
+}

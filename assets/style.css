@@ -5,12 +5,12 @@ body {
     font-family: "Metrophobic", sans-serif;
     background-color: #d2d4c8;
     color: #001a4d;
-    font-size: 2rem;
+    
     
 }
 
 h1 {
-    font-size: 3.5rem;
+    
     font-weight: 700;
     margin: 2rem 0;
 }
@@ -79,3 +79,4 @@ ol {
     background-color: #d2d4c8;
     border-color: #001a4d;
 }
+
