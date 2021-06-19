@@ -51,13 +51,14 @@ ol {
 }
 
 #progressBar {
-    width: 20rem;
-    height: 1.5rem;
+    width: 12rem;
+    height: 1.2rem;
     border: 0.3rem solid #1a1b41;
+    margin-bottom: 2rem;
     
 }
 #progressBarFull {
-    height: 1.2rem;
+    height: 0.6rem;
     background-color: #1a1b41;
         width: 10%;
    
