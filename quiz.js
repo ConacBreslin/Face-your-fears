@@ -12,6 +12,7 @@ let hudQuestion = document.getElementById("hudQuestion");
 let hudScore = document.getElementById("hudScore");
 let progressBarFull = document.getElementById("progressBarFull");
 let quizArea = document.getElementById("quizArea");
+let correctAnswerWas = document.getElementById("correctAnswerWas");
 
 var correctAnswer;
 let currentQuestionNumber = 0;
@@ -109,10 +110,12 @@ function checkAnswer(event) {
     } else {
         classToApply = "incorrect";
         targetElement.classList.add(classToApply);
+        correctAnswerWas.innerHTML = `<p>The correct answer was ${currentQuestion.answer}</p>`
         setTimeout(function (event) {
             targetElement.classList.remove(classToApply);
+            correctAnswerWas.innerHTML = '';
             renderQuestion();
-        }, 1000);
+        }, 1500);
     }
 }
 

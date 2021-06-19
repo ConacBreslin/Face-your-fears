@@ -88,6 +88,14 @@ ol {
     border-color: #001a4d;
 }
 
+#congratsText {
+    background-color: #fff;
+}
+
+#fauxbiaText {
+    background-color: #d2d4c8;
+}
+
 @media only screen and (max-width: 720px) {
     body {
         font-size: 1rem;
