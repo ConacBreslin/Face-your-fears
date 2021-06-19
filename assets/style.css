@@ -41,6 +41,7 @@ ol {
         border: 3px solid #001a4d;
         border-radius: 10%;
         margin: 15px;
+        padding-top: 15px;
 }
 
 .correct {
@@ -82,7 +83,7 @@ ol {
 }
 
 .btn:hover {
-    color: #001a4d;#d2d4c8
+    color: #001a4d;
     background-color: #d2d4c8;
     border-color: #001a4d;
 }

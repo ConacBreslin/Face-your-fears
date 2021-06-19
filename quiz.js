@@ -32,13 +32,15 @@ pickMax.addEventListener("click", setMaxNumber);
 function setMaxNumber(event) {
     event.preventDefault();
     maxQuestions = playerPickNumber.value;
-    if (maxQuestions <= 20) {
+    if (maxQuestions <= 20 && maxQuestions > 0) {
         pickForm.classList.add("d-none");
         quizArea.classList.remove("d-none");
+        startQuiz();
             } else {
         alert("You must pick a number between 1 and 20");
+        playerPickNumber.value = '';
     }
-    startQuiz();
+    
 }
 
 
