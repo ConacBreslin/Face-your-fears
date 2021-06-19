@@ -4,10 +4,8 @@
 body {
     font-family: "Metrophobic", sans-serif;
     background-color: #d2d4c8;
-    color: #001a4d;
-    
-    
-}
+    color: #001a4d; 
+    }
 
 h1 {
     
@@ -26,6 +24,7 @@ ol {
 .btn {
     margin: 1rem 0;
 }
+
 
 #welcome-subheading {
     background-color: #fff;
@@ -64,7 +63,9 @@ ol {
    
 }
 
-
+#questionArea {
+    margin-top: 1.5rem;
+}
 
 .btn {
     background-color: #001a4d;
@@ -75,8 +76,13 @@ ol {
 }
 
 .btn:hover {
-    color: #001a4d;
+    color: #001a4d;#d2d4c8
     background-color: #d2d4c8;
     border-color: #001a4d;
 }
 
+@media only screen and (max-width: 720px) {
+    #logo {
+      width: 10%;
+    }
+  }
