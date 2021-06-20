@@ -27,15 +27,15 @@ Non-functional requirements; 	The quiz should be simple, attractive and intuitiv
 The quiz will have 3 pages, A welcome page, a quiz page and a page for the final result. The quiz should automatically usher the player through all the stages of the quiz once they start through to the end. At the end they should be able to quit or replay.
 ## Skeleton
 The welcome page  explains what the quiz is about and how to play and a button to get started. 
-The quiz page starts with the player picking how many questions they want to answer, the quiz then automatically displays a question, a progress bar to indicate the players progress thought the quiz, a tally of their score and  a timer for each question. Once the player selects an answer the quiz will check the answer, update the score, progress and timer, display the correct answer if they aswer incorrectly  and display a new question until the player has answered the number of questions they initially selected.
-The wireframes can be seen here [mobile](assets/mobilewireframe.png) and [desktop](assets/wireframes/desktopwireframe.png).
+The quiz page starts with the player picking how many questions they want to answer, the quiz then automatically displays a question, a progress bar to indicate the players progress thought the quiz, a tally of their score and  a timer for each question. Once the player selects an answer the quiz will check the answer, update the score, progress and timer, display the correct answer if they answer incorrectly  and display a new question until the player has answered the number of questions they initially selected.
+The links to the [mobile](assets/mobilewireframe.png) and [desktop](assets/wireframes/desktopwireframe.png) wireframes can be accessed here. 
 ## Surface/Design
 ### Imagery
 The overall image of the site was to be kept clear, simple and intuitive.
 ### Colour scheme
-It was important to keep the colour scheme of the quiz extremely simple. A contrast ratio of 4.5:1 for small text and 3:1 for large text. This site wanted a strong but not too stark contrast. The contrast ratio of the site is [11.14](assets/images/contrastratio.png).
+It was important to keep the colour scheme of the quiz extremely simple. Information on the [psychology of colours](https://www.vandelaydesign.com/the-psychology-of-color-in-web-design/) in website design indicates that blue can help convey trustworthiness and so a dark chade of blue was picked for the font. A [minimum contrast ratio](https://coolors.co/contrast-checker/001a4d-d2d4c8) of 4.5:1 for small text and 3:1 for large text is recommended. This site wanted a strong but not too stark contrast. The contrast ratio of the site is [11.14](assets/images/contrastratio.png). 
 ### Typography
-Information on the psychology of fonts [https://fabrikbrands.com/font-psychology-and-typography-inspiration-in-logo-design/] indicated that a serif font can hep convey respectability.  The Vesper Libre font was selected in [Google Fonts](https://fonts.google.com/) for its simplicity.
+Information on the psychology of fonts [https://fabrikbrands.com/font-psychology-and-typography-inspiration-in-logo-design/] indicated that a serif font can  convey respectability. With this in mind the Vesper Libre font was selected in [Google Fonts](https://fonts.google.com/) for its simplicity.
 ## Features
 - Responsiveness on all device sizes.
 - A button on first page to bring you to the quiz page.
@@ -102,13 +102,34 @@ It was viewed on a variety of devices. Friends and family members reviewed the q
     The final results page has buttons to allow the player to quit or play again.
 ## Changes over course of development
 ## Known Bugs
-## Deployment
-## Credits
-- I took much inspiration from the following quiz tutorials on quizes [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), [James Q Quick ](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2850s).
+## Deployment## Deployment
+### The project was deployed to GitHub Pages in the following way. 
+1.	By logging in to the [GitHub Repository](https://github.com/).
+2.	Selecting the "Settings" Button in the menu at the top of the Repository.
+3.	Scrolling down the Settings page to the "GitHub Pages" Section.
+4.	Under "Source", clicking the dropdown menu labelled "None" and selecting "Master Branch".
+5.	The page then refreshes itself.
+6.	Scrolling back down the page to locate the [link to the published site](https://conacbreslin.github.io/CBBridge/)  in "GitHub Pages".
+
+### Forking the GitHub Repository
+The  GitHub Repository can be forked to make a copy of the original repository on the GitHub account to view and/or make changes without affecting the original repository in the following way.
+1.	By logging in to GitHub and locating the [GitHub Repository](https://github.com/ConacBreslin/CBBridge).
+2.	Selecting the "Fork" button at the top of the Repository (it is located above the "Settings" Button and over to the right).
+3.	There should then be a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+1.	By logging in to GitHub and locating the [GitHub Repository](https://github.com/ConacBreslin/CBBridge).
+2.	Under the repository name, clicking the dropdown button marked “Code” and then selecting "Clone or download".
+3.	Copying the link under "Clone with HTTPS", to clone the repository using HTTPS.
+4.	Opening Git Bash.
+5.	Changing the current working directory to the location where you want the cloned directory to be made.
+6.	Typing git clone, and pasting the URL copied in Step 3.
+7.	Pressing Enter to create the local clone.## Credits
+- I took much inspiration from the following quiz tutorials [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), [James Q Quick ](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2850s).
 The favicon emoji originated from [](https://twemoji.twitter.com/)
 ## Acknowledgements
 I would like to thank my mentor Chris Quinn whose advice is always perfectly judged.
-I would like to thank many tutors in Code Institute for being unfailingly helpful and nice, in particular Sean, John, Jo,. 
-I would like to thank Auke from Code Institute for her [excellent presentation](https:) on preparation for MS2 projects that helped me enourmously is getting started.
+I would like to thank many tutors in Code Institute for being unfailingly helpful, patient and without whom I never would have got this far.. 
+I would like to thank Auke from Code Institute for her [excellent presentation](https://us02web.zoom.us/rec/play/MCuNmtPISEPZ8HKoaFOPfV0aK0lEW1PdPp4oOc6qMgDKZJlM8R25CeYN9px-Sl5Igy9MH6t84U91Qqb0.TLaMAiPKcepOyIei?startTime=1613671536000&_x_zm_rtaid=Yutxy3GTQ6aVY5AYPIL9pw.1621494089473.7c91fa9f055bf41582324f20a1697373&_x_zm_rhtaid=590) on preparation for MS2 projects that helped me enourmously is getting started.
 I would like to thank my fearless family and friends for support and feedback and on the quiz.
 
