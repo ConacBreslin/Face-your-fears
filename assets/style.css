@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
 
 
 body {
-    font-family: "Metrophobic", sans-serif;
+    font-family: 'Vesper Libre', serif;
     background-color: #d2d4c8;
     color: #001a4d; 
     font-size: 1.5rem;

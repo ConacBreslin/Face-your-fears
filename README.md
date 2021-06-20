@@ -4,30 +4,32 @@ Phobias are a common pub quiz category and this quiz was designed to give player
 ## Visit the deployed website
 [[Face Your Fears website]"Visit the deployed site here")](https://conacbreslin.github.io/Face-your-fears/)
 ## User Experience (UX)
-A player would want to test their knowledge of phobias definitions
+A player would want to test their knowledge of phobias' definitions.
 On visiting the site they should be able to 
 1. Easily and intuitively understand what the quiz is about.
 2. Easily and intuitively understand how to start play.
-3. Easily and intuitively understand how to pick how many questions they want in the quiz.
+3. Easily and intuitively understand how to pick how many questions they want to answer in the quiz.
 4. Easily and intuitively understand how to answer the questions.
-5. Follow their progress easily throughout the quiz.
-6. Follow their score easily throughout the quiz.
-7. Clearly undestand their perforamnce on the final page.
-8. Be able to easily play again or quit the page at the end.
+5. Understand when the answer correctly.
+6. See the correct answer if they answer incorrectly.
+7. Follow their progress  throughout the quiz.
+8. Follow their score  throughout the quiz.
+9. Clearly undestand their perforance on the final page.
+10. Be able to  play again or quit the page at the end.
 ## Strategy
-The quiz should be a simple and attractive design with sufficient interactivity to engage players of any age or ability to play and return in the future.
+The quiz should be a simple and attractive design with sufficient interactivity to engage players of any age or ability.
 
 Objective Requirement;         To get players to play the quiz and to want to return again in the future.
 
-Functional requirements; 	    To provide a bank of relevent questions, a means of the players testing themselves, a means of recording players progress through the quiz, a means of recording and displaying their score, a means of indicating how much time they have remaining on each question. A way to display the final result.
+Functional requirements; 	    To provide a bank of relevent questions, a means of the players testing themselves, a means of recording players progress through the quiz, a means of recording and displaying their score, a means of indicating how much time they have remaining on each question. A way to display correct answer if they answer incorrectly. A way to display the final result.
 
 Non-functional requirements; 	The quiz should be simple, attractive and intuitive to facilitate players of any age or technical ability.
 ## Structure
 The quiz will have 3 pages, A welcome page, a quiz page and a page for the final result. The quiz should automatically usher the player through all the stages of the quiz once they start through to the end. At the end they should be able to quit or replay.
 ## Skeleton
 The welcome page  explains what the quiz is about and how to play and a button to get started. 
-The quiz page starts  with the player picking how many questions they want to answer, the quiz then automatically displays a question, a progress bar to indicate the players progress thought the quiz, a tally of their score and  a timer for each question. Once the player selects an answer the quiz will check the answer, update the score, progress and timer  and disply a new question until the player has answered the number of questions they initially selected.
-The wireframes for this here [mobile](assets/wireframes/mobile-wireframe.png), [mediumscreens](assets/wireframes/medium-wireframe.png) and [desktop](assets/wireframes/desktop-wireframe.png).
+The quiz page starts with the player picking how many questions they want to answer, the quiz then automatically displays a question, a progress bar to indicate the players progress thought the quiz, a tally of their score and  a timer for each question. Once the player selects an answer the quiz will check the answer, update the score, progress and timer, display the correct answer if they aswer incorrectly  and display a new question until the player has answered the number of questions they initially selected.
+The wireframes can be seen here [mobile](assets/mobilewireframe.png) and [desktop](assets/wireframes/desktopwireframe.png).
 ## Surface/Design
 ### Imagery
 The welcome page from [pexels.com](https://pexels.com/) and was chosen to convey the theme of the quiz.
