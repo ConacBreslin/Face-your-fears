@@ -32,24 +32,27 @@ The quiz page starts with the player picking how many questions they want to ans
 The wireframes can be seen here [mobile](assets/mobilewireframe.png) and [desktop](assets/wireframes/desktopwireframe.png).
 ## Surface/Design
 ### Imagery
-The welcome page from [pexels.com](https://pexels.com/) and was chosen to convey the theme of the quiz.
+The overall image of the site was to be kept clear, simple and intuitive.
 ### Colour scheme
-It was important to keep the colour scheme of the quiz extremely simple, but not too stark. Information on the psychology of colours [website here] indicate that a blue suggests steadfastness, dependability,and wisdom, so in keeping with both these onjectives very pale blue was chosen for teh backgound with a darker blue for the font colour.
+It was important to keep the colour scheme of the quiz extremely simple. A contrast ratio of 4.5:1 for small text and 3:1 for large text. This site wanted a strong but not too stark contrast. The contrast ratio of the site is [11.14](assets/images/contrastratio.png).
 ### Typography
-Information on the psychology of fonts [website here] indicated that a sans serif font suggests The Metrohobic font was selected in [Google Fonts](https://fonts.google.com/) for its clarity and its name's resonance with the quiz's theme!
+Information on the psychology of fonts [https://fabrikbrands.com/font-psychology-and-typography-inspiration-in-logo-design/] indicated that a serif font can hep convey respectability.  The Vesper Libre font was selected in [Google Fonts](https://fonts.google.com/) for its simplicity.
 ## Features
 - Responsiveness on all device sizes.
 - A button on first page to bring you to the quiz page.
 - An input at the start of the quiz to allow the player to select the number of questions they want to answer up to a maximum.
+- A means of teh quixz only displaying after palyer has selected a number of questions between 1 and 20.
+- An alert if player tried to pick anything otehr than a number between 1 and 20.
 - A means of displaying a random question and four answer options from the question bank and then removing that question from the question bank to avoid duplication.
 - A means of capturing the players response to the question, checking if it is correct and feeding that information to the score tally.
+- A means of displaying the correct answer if the player  answers incorrectly.
 - A means of displaying the player's progress through the quiz that updates after each question.
 - A means of displaying the player's score through the quiz that updates after each question.
 - A means of displaying the player's time remaining for each question. 
+- Ameans of the quiz moving on to teh next question after 10 seconds if player doesn't answer.
 - A means of displaying the final result and a buttons to allow the player to play again or quit.
 ## Future features
-In the future might
-- link to an API to provide the question bank rather than having a large question bank on the site.
+In the future teh site could be improved by linking to an API to provide the question bank rather than having a large question bank on the site.
 - provide a high score option.
 ## Languages used
 [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -62,15 +65,15 @@ In the future might
 - Gits's [gitpod](https://www.gitpod.io/) was used for writing and editing code, and for submitting and pushing to GitHub.
 - [GitHub](https://github.com/) was used for storing the code after being pushed from Git.
 - [Bootstrap 5.0.1](https://getbootstrap.com/) was used for responsiveness and styling.
-- [Google Fonts](https://fonts.google.com/) was used to import the ‘Metrophobic’ font into the style.css file.
-- Photos were used from 
-- Colours were identified in photos using [IMAGECOLORPICKER.com](https://imagecolorpicker.com/).
-- Colour palette was generated using [coolors.co](https://coolors.co/).
-- Foreground/Brackgound contrast as checked using [contrast-ratio.com](https://contrast-ratio.com/).
-The favicon was downloaded from [favicon.io](https://favicon.io/favicon-generator/)
-- tutorials from [XV.com](https://www.), [XV.com](https://www.), [XV.com](https://www.) were followed in designing the features of the quiz.
+- [Google Fonts](https://fonts.google.com/) was used to import the font.
+- The colour palette was generated using [coolors.co](https://coolors.co/).
+- Foreground/Backgound contrast as checked using [contrast-ratio.com](https://contrast-ratio.com/). 
+- The favicon was downloaded from [favicon.io](https://favicon.io/favicon-generator/).
+- The logo was created on [zyro.com](https://logo.zyro.com/).
+- The following tutorials from [James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2405s) and [codeexplained.org](https://www.youtube.com/watch?v=49pYIMygIcU) were followed in designing the features of the quiz.
 ## Testing
-### Validation.
+Bugs identified - during development and testing the bugs identified and corrected are listed here []().
+### Validation
 - HTML.The quiz’s html validation was tested by [validator.w3.org](https://validator.w3.org/). The errors identified and fixes are documented [here](assets/images/html-validator-testing.png).  The errors identified and fixes are documented [here](assets/images/jigsaw-testing.png).
 - Lighthouse Audits. The quiz’s Performance, Accessibility, Best Practices and SEO were assessed by [Chrome Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) and the results of this are [here](assets/images/lighthouse-report.png).
 - Manual Testing. Extensive use was made of console.log() at every step of the functionality development and each time an error was noted it was addressed ebfore proceeedinging.
