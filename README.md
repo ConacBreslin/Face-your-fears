@@ -10,12 +10,11 @@ On visiting the site they should be able to
 2. Easily and intuitively understand how to start play.
 3. Easily and intuitively understand how to pick how many questions they want to answer in the quiz.
 4. Easily and intuitively understand how to answer the questions.
-5. Understand when the answer correctly.
+5. Understand when they answer correctly.
 6. See the correct answer if they answer incorrectly.
 7. Follow their progress  throughout the quiz.
-8. Follow their score  throughout the quiz.
-9. Clearly undestand their perforance on the final page.
-10. Be able to  play again or quit the page at the end.
+8. Understand their perforance on the final page.
+9. Be able to  play again or quit the page at the end.
 ## Strategy
 The quiz should be a simple and attractive design with sufficient interactivity to engage players of any age or ability.
 
@@ -85,17 +84,21 @@ It was viewed on a variety of devices. Friends and family members reviewed the q
 2. Easily and intuitively understand how to start play
     - The welcome page includes short clear instructions on how to play and a button that brings the player to the quiz page. 
 3. Easily and intuitively understand how to pick how many questions they want in the quiz;
-    - Before displaying the quiz questions the quiz lets they player pick teh maximum number of questions they want to answer. ONly when they have done this does do the quiz questions appear.
+    - Before displaying the quiz questions the quiz lets the player pick the maximum number of questions they want to answer. Only when they have done this do the quiz questions appear. The maximum permitted is clearly displayed. IF the player attempted to eneter anything other than a number between 1 and 20 and alert displays.
 4. Easily and intuitively understand how to answer the questions;
-    - The Question is clearly displayed at the top of the page and the four options appear clearly like cards.
-5. Follow their progress easily throughout the quiz;
-    - The questions display and the associated progress bar clearly indicate how far through the quiz the player has progressed.
-6. Follow their score easily throughout the quiz.
-    - The correct score is displayed throughout the quiz.
-7. Clearly undestand their perforamnce on the final page.
+    - The Question is clearly displayed on the page and the four options appear like cards.
+5. Understand when they answer correctly.
+    - If the player clicks on the correct answer the background turns green. If they select an incorrect answer the background turns red. 
+6. See the correct answer if they answer incorrectly.
+    - If the player selects an incorrect answer the correct answer is displayed underneath the cards.
+7. Follow their progress easily throughout the quiz;
+    - The current and maximum question numbers display and there is a progress bar to indicate how far through the quiz the player has progressed.
+7. Follow their score easily throughout the quiz.
+    - The score  is displayed beside the progress area. It starts at 0 an increases by 1 each time the player selects a correct answer.
+8. Understand their perforamnce on the final page.
     - When the quiz is over the final page gives they player their final score percentage with an appropriately attached message.
-8. Be able to easily play again or quit the page at the end.
-    The final results page has buttons to allw the player to quit or play again.
+9. Be able to easily play again or quit the page at the end.
+    The final results page has buttons to allow the player to quit or play again.
 ## Changes over course of development
 ## Known Bugs
 ## Deployment
