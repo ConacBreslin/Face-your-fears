@@ -1,8 +1,8 @@
 # **Face Your Fears - A Quiz about Phobias**
 Phobias are a common pub quiz category and this quiz was designed to give players an easy and fun way to test their knowledge of the definitions of phobias.  
-[Face Your Fears main page image](assets/images/)
+[Face Your Fears main page image](assets/images/banner.png)
 ## Visit the deployed website
-[[Face Your Fears website]"Visit the deployed site here")](https://conacbreslin.github.io/)
+[[Face Your Fears website]"Visit the deployed site here")](https://conacbreslin.github.io/Face-your-fears/)
 ## User Experience (UX)
 A player would want to test their knowledge of phobias definitions
 On visiting the site they should be able to 

@@ -51,7 +51,7 @@ ol {
 .option{
         border: 3px solid #001a4d;
         border-radius: 10%;
-        margin: 15px;
+        margin: 25px;
         padding-top: 15px;
 }
 
@@ -80,6 +80,7 @@ ol {
 #questionArea {
     margin-top: 1.5rem;
 }
+
 
 #timeRemainingArea {
     margin-top:1.5rem;
