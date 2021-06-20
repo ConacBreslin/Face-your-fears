@@ -40,18 +40,18 @@ Information on the [psychology of fonts](https://fabrikbrands.com/font-psycholog
 - Responsiveness on all device sizes.
 - A button on first page to bring you to the quiz page.
 - An input at the start of the quiz to allow the player to select the number of questions they want to answer up to a maximum.
-- A means of teh quixz only displaying after palyer has selected a number of questions between 1 and 20.
-- An alert if player tried to pick anything otehr than a number between 1 and 20.
+- A means of the quiz only displaying after player has selected a number of questions between 1 and 20.
+- An alert if player tries to pick anything other than a number between 1 and 20.
 - A means of displaying a random question and four answer options from the question bank and then removing that question from the question bank to avoid duplication.
 - A means of capturing the players response to the question, checking if it is correct and feeding that information to the score tally.
-- A means of displaying the correct answer if the player  answers incorrectly.
+- A means of displaying the correct answer if the player answers incorrectly.
 - A means of displaying the player's progress through the quiz that updates after each question.
 - A means of displaying the player's score through the quiz that updates after each question.
 - A means of displaying the player's time remaining for each question. 
-- Ameans of the quiz moving on to teh next question after 10 seconds if player doesn't answer.
+- A means of the quiz moving on to the next question after 10 seconds if player doesn't answer.
 - A means of displaying the final result and a buttons to allow the player to play again or quit.
 ## Future features
-In the future teh site could be improved by linking to an API to provide the question bank rather than having a large question bank on the site.
+In the future the site could be improved by linking to an API to provide the question bank rather than having a large question bank on the site.
 - provide a high score option.
 ## Languages used
 [HTML5](https://en.wikipedia.org/wiki/HTML5)
