@@ -28,7 +28,7 @@ The quiz will have 3 pages, A welcome page, a quiz page and a page for the final
 ## Skeleton
 The welcome page  explains what the quiz is about and how to play and a button to get started. 
 The quiz page starts with the player picking how many questions they want to answer, the quiz then automatically displays a question, a progress bar to indicate the players progress thought the quiz, a tally of their score and  a timer for each question. Once the player selects an answer the quiz will check the answer, update the score, progress and timer, display the correct answer if they answer incorrectly  and display a new question until the player has answered the number of questions they initially selected.
-The links to the [mobile](assets/images/mobilewireframe.png) and [desktop](assets/images/desktopwireframe.png) wireframes can be accessed here. 
+The links to the wireframes can be accessed [here](assets/images/wireframes.pdf). 
 ## Surface/Design
 ### Imagery
 The overall image of the site was to be kept clear, simple and intuitive.
@@ -101,6 +101,7 @@ It was viewed on a variety of devices. Friends and family members reviewed the q
 9. Be able to easily play again or quit the page at the end.
     The final results page has buttons to allow the player to quit or play again.
 ## Changes over course of development
+Initially the site did not have a means of displaying the correct answer when a player answered incorrectly but following feedback from players it was decided to include this.
 ## Known Bugs
 ## Deployment
 ### The project was deployed to GitHub Pages in the following way. 
