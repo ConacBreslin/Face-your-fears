@@ -51,8 +51,7 @@ Information on the [psychology of fonts](https://fabrikbrands.com/font-psycholog
 - A means of the quiz moving on to the next question after 10 seconds if player doesn't answer.
 - A means of displaying the final result and a buttons to allow the player to play again or quit.
 ## Future features
-In the future the site could be improved by linking to an API to provide the question bank rather than having a large question bank on the site.
-- provide a high score option.
+In the future the site could be improved by linking to an API to provide the questions rather than having a large question bank on the site. A high score section could be included. 
 ## Languages used
 [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
@@ -64,9 +63,9 @@ In the future the site could be improved by linking to an API to provide the que
 - Gits's [gitpod](https://www.gitpod.io/) was used for writing and editing code, and for submitting and pushing to GitHub.
 - [GitHub](https://github.com/) was used for storing the code after being pushed from Git.
 - [Bootstrap 5.0.1](https://getbootstrap.com/) was used for responsiveness and styling.
-- [Google Fonts](https://fonts.google.com/) was used to import the font.
+- [Google Fonts](https://fonts.google.com/) was used to choose and import the font.
 - The colour palette was generated using [coolors.co](https://coolors.co/).
-- Foreground/Backgound contrast as checked using [contrast-ratio.com](https://contrast-ratio.com/). 
+- Foreground/Backgound contrast was checked using [contrast-ratio.com](https://contrast-ratio.com/). 
 - The favicon was downloaded from [favicon.io](https://favicon.io/favicon-generator/).
 - The logo was created on [zyro.com](https://logo.zyro.com/).
 - The following tutorials from [James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2405s) and [codeexplained.org](https://www.youtube.com/watch?v=49pYIMygIcU) were followed in designing the features of the quiz.
