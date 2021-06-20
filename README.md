@@ -33,9 +33,9 @@ The links to the [mobile](assets/images/mobilewireframe.png) and [desktop](asset
 ### Imagery
 The overall image of the site was to be kept clear, simple and intuitive.
 ### Colour scheme
-It was important to keep the colour scheme of the quiz extremely simple. Information on the [psychology of colours](https://www.vandelaydesign.com/the-psychology-of-color-in-web-design/) in website design indicates that blue can help convey trustworthiness and so a dark chade of blue was picked for the font. A [minimum contrast ratio](https://coolors.co/contrast-checker/001a4d-d2d4c8) of 4.5:1 for small text and 3:1 for large text is recommended. This site wanted a strong but not too stark contrast. The contrast ratio of the site is [11.14](assets/images/contrastratio.png). 
+It was important to keep the colour scheme of the quiz extremely simple. Information on the [psychology of colours](https://www.vandelaydesign.com/the-psychology-of-color-in-web-design/) in website design indicates that blue can help convey trustworthiness and so a dark shade of blue was picked for the font. A [minimum contrast ratio](https://coolors.co/contrast-checker/001a4d-d2d4c8) of 4.5:1 for small text and 3:1 for large text is recommended. This site wanted a strong but not too stark contrast. The contrast ratio of the site is [11.14](assets/images/contrastratio.png). 
 ### Typography
-Information on the psychology of fonts [https://fabrikbrands.com/font-psychology-and-typography-inspiration-in-logo-design/] indicated that a serif font can  convey respectability. With this in mind the Vesper Libre font was selected in [Google Fonts](https://fonts.google.com/) for its simplicity.
+Information on the [psychology of fonts](https://fabrikbrands.com/font-psychology-and-typography-inspiration-in-logo-design) indicated that a serif font can  convey respectability. With this in mind the Vesper Libre font was selected in [Google Fonts](https://fonts.google.com/) for its simplicity.
 ## Features
 - Responsiveness on all device sizes.
 - A button on first page to bring you to the quiz page.
