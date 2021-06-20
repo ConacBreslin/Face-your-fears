@@ -74,6 +74,7 @@ In the future the site could be improved by linking to an API to provide the que
 Bugs identified - during development and testing the bugs identified and corrected are listed here []().
 ### Validation
 - HTML and CSS.The quiz’s html validation was tested by direct input into [validator.w3.org](https://validator.w3.org/). The errors identified and fixes are documented [here](assets/images/TOBEADDED).  The quiz’s css was tested by direct input into [jigsaw.w3.org](https://jigsaw.w3.org/css-validator/). The errors identified and fixes are documented [here](assets/images/TOBEADDED).
+The javaScript on each of teh thre .js files was checked by idrect input into [jshint](https://jshint.com/). The errors identified and fixes are documented [here](assets/images/TOBEADDED).
 - Lighthouse Audits. The quiz’s Performance, Accessibility, Best Practices and SEO were assessed by [Chrome Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) and the results of this are [here](assets/images/TOBEADDED).
 - Manual Testing. Extensive use was made of console.log() at every step of the functionality development and each time an error was noted it was addressed ebfore proceeedinging.
 The quiz was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
@@ -128,7 +129,7 @@ The  GitHub Repository can be forked to make a copy of the original repository o
 The favicon emoji originated from [](https://twemoji.twitter.com/)
 ## Acknowledgements
 I would like to thank my mentor Chris Quinn whose advice is always perfectly judged.
-I would like to thank many tutors in Code Institute for being unfailingly helpful, patient and without whom I never would have got this far.. 
-I would like to thank Auke from Code Institute for her [excellent presentation](https://us02web.zoom.us/rec/play/MCuNmtPISEPZ8HKoaFOPfV0aK0lEW1PdPp4oOc6qMgDKZJlM8R25CeYN9px-Sl5Igy9MH6t84U91Qqb0.TLaMAiPKcepOyIei?startTime=1613671536000&_x_zm_rtaid=Yutxy3GTQ6aVY5AYPIL9pw.1621494089473.7c91fa9f055bf41582324f20a1697373&_x_zm_rhtaid=590) on preparation for MS2 projects that helped me enourmously is getting started.
+I would like to thank many tutors in Code Institute for being unfailingly helpful, patient and without whom I never would have got this far. 
+I would like to thank Aukje from Code Institute for her [excellent presentation](https://us02web.zoom.us/rec/play/MCuNmtPISEPZ8HKoaFOPfV0aK0lEW1PdPp4oOc6qMgDKZJlM8R25CeYN9px-Sl5Igy9MH6t84U91Qqb0.TLaMAiPKcepOyIei?startTime=1613671536000&_x_zm_rtaid=Yutxy3GTQ6aVY5AYPIL9pw.1621494089473.7c91fa9f055bf41582324f20a1697373&_x_zm_rhtaid=590) on preparation for MS2 projects that helped me enormously is getting started.
 I would like to thank my fearless family and friends for support and feedback and on the quiz.
 
