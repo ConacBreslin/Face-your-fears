@@ -70,12 +70,12 @@ In the future teh site could be improved by linking to an API to provide the que
 - The favicon was downloaded from [favicon.io](https://favicon.io/favicon-generator/).
 - The logo was created on [zyro.com](https://logo.zyro.com/).
 - The following tutorials from [James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2405s) and [codeexplained.org](https://www.youtube.com/watch?v=49pYIMygIcU) were followed in designing the features of the quiz.
-- The following websites were used for problem solving [stackoverflow.com](https://stackoverflow.com/), [w3schools.com](https://www.w3schools.com/), [tutsmake.com](https://www.tutsmake.com/) and [scrimba.com](https://scrimba.com/)
+- The following websites were used for problem solving [stackoverflow.com](https://stackoverflow.com/), [w3schools.com](https://www.w3schools.com/), [tutsmake.com](https://www.tutsmake.com/), [geeksforgeeks.org](https://www.geeksforgeeks.org/) and [scrimba.com](https://scrimba.com/)
 ## Testing.
 Bugs identified - during development and testing the bugs identified and corrected are listed here []().
 ### Validation
-- HTML.The quiz’s html validation was tested by [validator.w3.org](https://validator.w3.org/). The errors identified and fixes are documented [here](assets/images/html-validator-testing.png).  The errors identified and fixes are documented [here](assets/images/jigsaw-testing.png).
-- Lighthouse Audits. The quiz’s Performance, Accessibility, Best Practices and SEO were assessed by [Chrome Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) and the results of this are [here](assets/images/lighthouse-report.png).
+- HTML.The quiz’s html validation was tested by [validator.w3.org](https://validator.w3.org/). The errors identified and fixes are documented [here](assets/images/TOBEADDED).  The errors identified and fixes are documented [here](assets/images/TOBEADDED).
+- Lighthouse Audits. The quiz’s Performance, Accessibility, Best Practices and SEO were assessed by [Chrome Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) and the results of this are [here](assets/images/TOBEADDED).
 - Manual Testing. Extensive use was made of console.log() at every step of the functionality development and each time an error was noted it was addressed ebfore proceeedinging.
 The quiz was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 It was viewed on a variety of devices. Friends and family members reviewed the quiz to identify bugs and give feedback on user experience. The code was submitted for peer-review in Code Institutes peer-code-review channel in [slack.com](https://app.slack.com/). 

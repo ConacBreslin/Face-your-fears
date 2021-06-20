@@ -110,7 +110,7 @@ function checkAnswer(event) {
     } else {
         classToApply = "incorrect";
         targetElement.classList.add(classToApply);
-        correctAnswerWas.innerHTML = `<p>The correct answer was ${currentQuestion.answer}</p>`
+        correctAnswerWas.innerHTML = `<p>The correct answer was ${currentQuestion.answer}</p>`;
         setTimeout(function (event) {
             targetElement.classList.remove(classToApply);
             correctAnswerWas.innerHTML = '';
@@ -124,6 +124,8 @@ function checkAnswer(event) {
 function startQuiz() {
     score = 0;
     currentQuestionNumber = 0;
+    //set focus to inout box
+    playerPickNumber.focus();
     // move all questions from question.js to available questions array
     availableQuestions = [...questions];
     // display question and options and increase current question number

@@ -473,4 +473,4 @@ choiceD: {name:"Kissing", icon:'<i class="far fa-kiss"></i>'},
 correct:"C",
 answer: "WITCHES"
 }
-]
+];

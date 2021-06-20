@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
 
 
@@ -27,7 +26,7 @@ ol {
 .btn {
     background-color: #001a4d;
     color: #d2d4c8;
-    font-style: 1.5rem;
+    font-size: 1.5rem;
     font-weight: 900;
     margin: 2rem 0;
 }
