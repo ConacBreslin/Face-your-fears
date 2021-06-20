@@ -70,7 +70,8 @@ In the future teh site could be improved by linking to an API to provide the que
 - The favicon was downloaded from [favicon.io](https://favicon.io/favicon-generator/).
 - The logo was created on [zyro.com](https://logo.zyro.com/).
 - The following tutorials from [James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2405s) and [codeexplained.org](https://www.youtube.com/watch?v=49pYIMygIcU) were followed in designing the features of the quiz.
-## Testing
+- The following websites were used for problem solving [stackoverflow.com](https://stackoverflow.com/), [w3schools.com](https://www.w3schools.com/), [tutsmake.com](https://www.tutsmake.com/) and [scrimba.com](https://scrimba.com/)
+## Testing.
 Bugs identified - during development and testing the bugs identified and corrected are listed here []().
 ### Validation
 - HTML.The quiz’s html validation was tested by [validator.w3.org](https://validator.w3.org/). The errors identified and fixes are documented [here](assets/images/html-validator-testing.png).  The errors identified and fixes are documented [here](assets/images/jigsaw-testing.png).
