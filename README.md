@@ -73,11 +73,11 @@ In the future the site could be improved by linking to an API to provide the que
 ## Testing.
 Bugs identified - during development and testing the bugs identified and corrected are listed here []().
 ### Validation
-- HTML.The quiz’s html validation was tested by [validator.w3.org](https://validator.w3.org/). The errors identified and fixes are documented [here](assets/images/TOBEADDED).  The errors identified and fixes are documented [here](assets/images/TOBEADDED).
+- HTML and CSS.The quiz’s html validation was tested by direct input into [validator.w3.org](https://validator.w3.org/). The errors identified and fixes are documented [here](assets/images/TOBEADDED).  The quiz’s css was tested by direct input into [jigsaw.w3.org](https://jigsaw.w3.org/css-validator/). The errors identified and fixes are documented [here](assets/images/TOBEADDED).
 - Lighthouse Audits. The quiz’s Performance, Accessibility, Best Practices and SEO were assessed by [Chrome Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) and the results of this are [here](assets/images/TOBEADDED).
 - Manual Testing. Extensive use was made of console.log() at every step of the functionality development and each time an error was noted it was addressed ebfore proceeedinging.
 The quiz was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-It was viewed on a variety of devices. Friends and family members reviewed the quiz to identify bugs and give feedback on user experience. The code was submitted for peer-review in Code Institutes peer-code-review channel in [slack.com](https://app.slack.com/). 
+It was viewed on a variety of devices. Friends and family members reviewed the quiz to identify bugs and give feedback on user experience. The code was submitted for peer-review in Code Institute's peer-code-review channel in [slack.com](https://app.slack.com/). And ?FEEDBACK ADDED HERE
 ### Testing User Stories from User Experience (UX) Section.
 1. Easily and intuitively understand what the quiz is about;
     - On entering the site the player sees a welcome page with a title and  a clear explanation of what the quiz is about.
@@ -101,23 +101,23 @@ It was viewed on a variety of devices. Friends and family members reviewed the q
     The final results page has buttons to allow the player to quit or play again.
 ## Changes over course of development
 ## Known Bugs
-## Deployment## Deployment
+## Deployment
 ### The project was deployed to GitHub Pages in the following way. 
 1.	By logging in to the [GitHub Repository](https://github.com/).
 2.	Selecting the "Settings" Button in the menu at the top of the Repository.
 3.	Scrolling down the Settings page to the "GitHub Pages" Section.
 4.	Under "Source", clicking the dropdown menu labelled "None" and selecting "Master Branch".
 5.	The page then refreshes itself.
-6.	Scrolling back down the page to locate the [link to the published site](https://conacbreslin.github.io/CBBridge/)  in "GitHub Pages".
+6.	Scrolling back down the page to locate the [link to the published site](https://conacbreslin.github.io/Face-your-fears/)  in "GitHub Pages".
 
 ### Forking the GitHub Repository
 The  GitHub Repository can be forked to make a copy of the original repository on the GitHub account to view and/or make changes without affecting the original repository in the following way.
-1.	By logging in to GitHub and locating the [GitHub Repository](https://github.com/ConacBreslin/CBBridge).
+1.	By logging in to GitHub and locating the [GitHub Repository](https://github.com/ConacBreslin/Face-your-fears).
 2.	Selecting the "Fork" button at the top of the Repository (it is located above the "Settings" Button and over to the right).
 3.	There should then be a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
-1.	By logging in to GitHub and locating the [GitHub Repository](https://github.com/ConacBreslin/CBBridge).
+1.	By logging in to GitHub and locating the [GitHub Repository](https://github.com/ConacBreslin/Face-your-fears).
 2.	Under the repository name, clicking the dropdown button marked “Code” and then selecting "Clone or download".
 3.	Copying the link under "Clone with HTTPS", to clone the repository using HTTPS.
 4.	Opening Git Bash.
