@@ -3,7 +3,7 @@ let questions= [
         choiceA : {name:"Flying", icon:'<i class="fas fa-plane"></i>'},
         choiceB : {name:"Clouds", icon:'<i class="fas fa-cloud"></i>'},
         choiceC : {name:"Insects", icon:'<i class="fas fa-bug"></i>'},
-        choiceD : {name:"Being touched", icon:'<i class="fas fa-hand-paper"></i>'},
+        choiceD : {name:"Being touched", icon:'<i class="fas fa-hands-helping"></i>'},
         correct:"A",
         answer:"FLYING"
 },
@@ -50,7 +50,7 @@ answer: "PEOPLE"
 { phobia : "Aphenphosmphobia",
 choiceA : {name:"Horses", icon:'<i class="fas fa-horse"></i>'},
 choiceB : {name:"Buttons", icon :'<i class="fas fa-toggle-on"></i>'},
-choiceC: {name:"Being touched", icon:'<i class="fas fa-hand-paper"></i>'},
+choiceC: {name:"Being touched", icon:'<i class="fas fa-hands-helping"></i>'},
 choiceD: {name:"Germs", icon:'<i class="fas fa-viruses"></i>'},
 correct: "C",
 answer: "BEING TOUCHED"
@@ -69,7 +69,7 @@ choiceB : {name:"Cats", icon:'<i class="fas fa-cat"></i>'},
 choiceC: {name:"Witches", icon:'<i class="fas fa-hat-wizard"></i>'},
 choiceD: {name:"Ugliness", icon:'<i class="fas fa-frown-open"></i>'},
 correct:"A",
-answer: "BACTERIA"
+answer: "MICROBES"
 },
 { phobia : "Batrachophobia",
 choiceA : {name:"Technology", icon:'<i class="fas fa-sim-card"></i>'},
@@ -89,7 +89,7 @@ answer: "BOOKS"
 },
 { phobia : "Botanophobia",
 choiceA : {name:"Dentists", icon:'<i class="fas fa-tooth"></i>'},
-choiceB : {name:"The Colour White", icon:'<i class="far fa-square"></i>'},
+choiceB : {name:"Microbes", icon:'<i class="fas fa-bacterium"></i>'},
 choiceC: {name:"Speed", icon:'<i class="fas fa-tachometer-alt"></i>'},
 choiceD: {name:"Plants", icon:'<i class="fas fa-seedling"></i>'},
 correct:"D",
@@ -203,7 +203,7 @@ answer: "women",
 { phobia : "Heliophobia ",
 choiceA : {name:"Plants", icon:'<i class="fas fa-seedling"></i>'},
 choiceB : {name:"The Sun", icon:'<i class="fas fa-sun"></i>'},
-choiceC: {name:"Injections", icon:'<i class="fas fa-syringe"></i>'},
+choiceC: {name: "Heat", icon:'<i class="fas fa-thermometer-full"></i>'},
 choiceD: {name:"Fish", icon:'<i class="fas fa-fish"></i>'},
 correct:"B",
 answer: "THE SUN"
@@ -236,7 +236,7 @@ answer: "DOCTORS"
 choiceA : {name:"The Sun", icon:'<i class="fas fa-sun"></i>'},
 choiceB : {name:"Buttons", icon :'<i class="fas fa-toggle-on"></i>'},
 choiceC: {name:"Scissors", icon :' <i class="fas fa-cut"></i>'},
-choiceD: {name:"Plants", icon:'<i class="fas fa-seedling"></i>'},
+choiceD: {name:"Waves", icon:'<i class="fas fa-water"></i>'},
 correct:"B",
 answer: "BUTTONS"
 },
@@ -267,7 +267,7 @@ answer: "THE COLOUR BLACK"
 { phobia : "Microphobia ",
 choiceA : {name:"Kissing", icon:'<i class="far fa-kiss"></i>'},
 choiceB : {name:"Small Things", icon:'<i class="fas fa-search-minus"></i>'},
-choiceC: {name:"Sleep", icon:'<i class="fas fa-bed"></i>'},
+choiceC: {name:"Microbes", icon:'<i class="fas fa-bacterium"></i>'},
 choiceD: {name:"Children", icon:'<i class="fas fa-child"></i>'},
 correct:"B",
 answer: "SMALL THINGS"
@@ -301,7 +301,7 @@ answer: "HOSPITALS"
 choiceA : {name:"Disease", icon:'<i class="fas fa-disease"></i>'},
 choiceB : {name:"Rain", icon:'<i class="fas fa-cloud-rain"></i>'},
 choiceC: {name:"Dogs", icon:'<i class="fas fa-dog"></i>'},
-choiceD: {name:"Toads", icon:'<i class="fas fa-frog"></i>'},
+choiceD: {name:"Otters", icon:'<i class="fas fa-otter"></i>'},
 correct:"B",
 answer: "RAIN"
 },
@@ -541,7 +541,7 @@ answer: "PINS"
 choiceA : {name:"Toads", icon:'<i class="fas fa-frog"></i>'},
 choiceB : {name:"Cleanliness", icon: '<i class="fas fa-hand-sparkles"></i>'},
 choiceC : {name:"Being Happy", icon:' <i class="far fa-smile-beam"></i>'},
-choiceD : { name:"Being touched", icon:'<i class="fas fa-hand-paper"></i>'},
+choiceD : { name:"Being touched", icon:'<i class="fas fa-hands-helping"></i>'},
 correct:"A",
  answer:"TOADS"
 },
@@ -556,7 +556,7 @@ answer: "SITTING"
 { phobia : "Chirophobia",
 choiceA : {name:"Feet", icon:'<i class="fas fa-socks"></i>'},
 choiceB : {name:"Cheese", icon:'<i class="fas fa-cheese"></i>'},
-choiceC: {name:"Hands", icon:'<i class="fas fa-road"></i>'},
+choiceC: {name:"Hands", icon:'<i class="fas fa-hand-paper"></i>'},
 choiceD: {name:"Buttons", icon :'<i class="fas fa-toggle-on"></i>'},
 correct:"C",
 answer: "HANDS"
@@ -664,7 +664,7 @@ answer: "PUBLIC SPEAKING"
 { phobia : "Homichlophobia",
 choiceA : {name:"Men", icon:'<i class="fas fa-male"></i>'},
 choiceB : {name:"Blood", icon:'<i class="fas fa-tint"></i>'},
-choiceC: {name:"Being touched", icon:'<i class="fas fa-hand-paper"></i>'},
+choiceC: {name:"Being touched", icon:'<i class="fas fa-hands-helping"></i>'},
 choiceD: {name:"Fog", icon:'<i class="fas fa-smog"></i>'},
 correct:"D",
 answer: "FOG"
@@ -771,7 +771,7 @@ answer: "TRAINS"
 choiceA : {name:"Eating", icon:'<i class="fas fa-utensils"></i>'},
 choiceB : {name:"Scissors", icon:'<i class="fas fa-cut"></i>'},
 choiceC: {name:"Clothing", icon:'<i class="fas fa-tshirt"></i>'},
-choiceD: {name:"Feet", icon:'<i class="fas fa-socks"></i>'},
+choiceD: {name:"Sitting", icon:'<i class="fas fa-couch"></i>'},
 correct:"A",
 answer: "EATING"
 },
@@ -781,7 +781,7 @@ chioceB: {name:"Learning", icon:'<i class="fab fa-leanpub"></i>'},
 choiceC: {name:"Love", icon:'<i class="far fa-heart"></i>'},
 choiceD: {name:"Small Things", icon:'<i class="fas fa-search-minus"></i>'},
 correct : "B",
-answer: "BEING ANGRY"
+answer: "LEARNING"
 },
 { phobia : "Staurophobia",
 choiceA : {name:"Thunder and Lightening", icon:'<i class="fas fa-bolt"></i>'},
