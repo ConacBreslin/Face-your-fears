@@ -1,8 +1,9 @@
+// jshint esversion: 6
 let finalScoreText = document.getElementById("finalScoreText");
 let phunnyFauxbiaText = document.getElementById("phunnyFauxbia");
 
 let finalScore = localStorage.getItem("finalScore");
-let maxQuestions = localStorage.getItem("maxQuestions")
+let maxQuestions = localStorage.getItem("maxQuestions");
 
 let finalScorePercent = Math.round(finalScore / maxQuestions * 100);
 let phunnyFauxbias = ['"Nomophobia" - The fear not having a working mobile phone.', 

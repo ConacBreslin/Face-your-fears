@@ -1,3 +1,5 @@
+// jshint esversion: 6
+
 let phobia = document.getElementById("questionArea");
 let optionA = document.getElementById("A");
 let optionB = document.getElementById("B");
@@ -61,7 +63,7 @@ function addEventListenersToOptions() {
 
 function renderQuestion() {
     if (currentQuestionNumber >= maxQuestions) {
-        localStorage.setItem("maxQuestions", maxQuestions)
+        localStorage.setItem("maxQuestions", maxQuestions);
         localStorage.setItem("finalScore", score);
         //go to finalscore page
         return window.location.assign('finalscore.html');
