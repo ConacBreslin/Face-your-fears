@@ -27,7 +27,7 @@ let classToApply;
 let count = 10;
 let questionTime = 10;
 let timer;
-
+let readyToClickAgain = false;
 
 //set focus to input box
 playerPickNumber.focus();
@@ -80,6 +80,7 @@ function renderQuestion() {
     // sets four different options 
     correctAnswer = currentQuestion.correct;
     availableQuestions.splice(questionIndex, 1); //remove question used from available question array
+    readyToClickAgain = true;
 }
 
 // function to set time remaining for each question
@@ -94,6 +95,8 @@ function renderTimeRemaining() {
 
 // function to check answer, increase score if correct, temporarily change answer backgound, display score in hud
 function checkAnswer(event) {
+    if (!readyToClickAgain) return;
+    readyToClickAgain = false;
     let targetValue = event.currentTarget.id;
     let targetElement = event.currentTarget;
     if (targetValue === correctAnswer) {
