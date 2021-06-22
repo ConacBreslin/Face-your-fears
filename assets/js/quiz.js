@@ -1,3 +1,4 @@
+//Code on line 2 from teamtreehouse.com to help resolve jshint errors
 // jshint esversion: 6
 
 let phobia = document.getElementById("questionArea");

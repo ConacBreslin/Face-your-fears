@@ -13,8 +13,8 @@ On visiting the site they should be able to
 5. Understand when they answer correctly.
 6. See the correct answer if they answer incorrectly.
 7. Follow their progress  throughout the quiz.
-8. Understand their perforance on the final page.
-9. Be able to  play again or quit the page at the end.
+8. Understand their performance on the final page.
+9. Be able to  play again or quit the game at the end.
 ## Strategy
 The quiz should be a simple and attractive design with sufficient interactivity to engage players of any age or ability.
 
@@ -27,7 +27,7 @@ Non-functional requirements; 	The quiz should be simple, attractive and intuitiv
 The quiz will have 3 pages, A welcome page, a quiz page and a page for the final result. The quiz should automatically usher the player through all the stages of the quiz once they start through to the end. At the end they should be able to quit or replay.
 ## Skeleton
 The welcome page  explains what the quiz is about and how to play and a button to get started. 
-The quiz page starts with the player picking how many questions they want to answer, the quiz then automatically displays a question, a progress bar to indicate the players progress thought the quiz, a tally of their score and  a timer for each question. Once the player selects an answer the quiz will check the answer, update the score, progress and timer, display the correct answer if they answer incorrectly  and display a new question until the player has answered the number of questions they initially selected.
+The quiz page starts with the player picking how many questions they want to answer. It then displays a question, 4 answer options,  a progress bar, a score tally and a timer. Once the player selects an answer the quiz will indicate if it is correct or incorrect by changing the background colour, update the score, progress bar and reset the timer It will display the correct answer the answer was incorrect and will continue to display a new questions until the player has answered the number of questions they initially selected.
 The links to the wireframes can be accessed [here](assets/images/wireframes.pdf). 
 ## Surface/Design
 ### Imagery
@@ -38,7 +38,7 @@ It was important to keep the colour scheme of the quiz extremely simple. Informa
 Information on the [psychology of fonts](https://fabrikbrands.com/font-psychology-and-typography-inspiration-in-logo-design) indicated that a serif font can  convey respectability. With this in mind the Vesper Libre font was selected in [Google Fonts](https://fonts.google.com/) for its simplicity.
 ## Features
 - Responsiveness on all device sizes.
-- A button on first page to bring you to the quiz page.
+- A button on first page to bring the player to the quiz page.
 - An input at the start of the quiz to allow the player to select the number of questions they want to answer up to a maximum.
 - A means of the quiz only displaying after player has selected a number of questions between 1 and 20.
 - An alert if player tries to pick anything other than a number between 1 and 20.
@@ -49,7 +49,7 @@ Information on the [psychology of fonts](https://fabrikbrands.com/font-psycholog
 - A means of displaying the player's score through the quiz that updates after each question.
 - A means of displaying the player's time remaining for each question. 
 - A means of the quiz moving on to the next question after 10 seconds if player doesn't answer.
-- A means of displaying the final result and a buttons to allow the player to play again or quit.
+- A means of displaying the final result and a button to allow the player to play again or quit.
 ## Future features
 In the future the site could be improved by linking to an API to provide the questions rather than having a large question bank on the site. A high score section could be included. 
 ## Languages used
@@ -69,25 +69,25 @@ In the future the site could be improved by linking to an API to provide the que
 - The favicon was downloaded from [favicon.io](https://favicon.io/favicon-generator/).
 - The logo was created on [zyro.com](https://logo.zyro.com/).
 - The following tutorials from [James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2405s) and [codeexplained.org](https://www.youtube.com/watch?v=49pYIMygIcU) were followed in designing the features of the quiz.
-- The following websites were used for problem solving [stackoverflow.com](https://stackoverflow.com/), [w3schools.com](https://www.w3schools.com/), [tutsmake.com](https://www.tutsmake.com/), [geeksforgeeks.org](https://www.geeksforgeeks.org/) and [scrimba.com](https://scrimba.com/)
+- The following websites were used for problem solving [stackoverflow.com](https://stackoverflow.com/), [w3schools.com](https://www.w3schools.com/), [tutsmake.com](https://www.tutsmake.com/), [geeksforgeeks.org](https://www.geeksforgeeks.org/), [scrimba.com](https://scrimba.com/) and [teamtreehouse.com](https://teamtreehouse.com/community/why-does-jshint-give-me-these-warnings-about-es6) was used to resolve jshint errors.
 ## Testing.
 Bugs identified - during development and testing the bugs identified and corrected are listed here []().
 ### Validation
 - HTML and CSS.The quiz’s html validation was tested by direct input into [validator.w3.org](https://validator.w3.org/). The errors identified and fixes are documented [here](assets/images/TOBEADDED).  The quiz’s css was tested by direct input into [jigsaw.w3.org](https://jigsaw.w3.org/css-validator/). The errors identified and fixes are documented [here](assets/images/TOBEADDED).
-The javaScript on each of teh thre .js files was checked by idrect input into [jshint](https://jshint.com/). The errors identified and fixes are documented [here](assets/images/TOBEADDED).
+The javaScript in the .js files was checked by dirrect input into [jshint](https://jshint.com/). The errors identified and fixes are documented [here](assets/images/TOBEADDED).
 - Lighthouse Audits. The quiz’s Performance, Accessibility, Best Practices and SEO were assessed by [Chrome Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) and the results of this are [here](assets/images/TOBEADDED).
-- Manual Testing. Extensive use was made of console.log() at every step of the functionality development and each time an error was noted it was addressed ebfore proceeedinging.
+- Manual Testing. Extensive use was made of console.log() at every step of the functionality development and each time an error was noted it was addressed ebfore proceeeding.
 The quiz was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-It was viewed on a variety of devices. Friends and family members reviewed the quiz to identify bugs and give feedback on user experience. The code was submitted for peer-review in Code Institute's peer-code-review channel in [slack.com](https://app.slack.com/). And ?FEEDBACK ADDED HERE
+It was viewed on a variety of devices. Friends and family members reviewed the quiz to identify bugs and give feedback on user experience. The code was submitted for peer-review in Code Institute's peer-code-review channel in [slack.com](https://app.slack.com/). 
 ### Testing User Stories from User Experience (UX) Section.
 1. Easily and intuitively understand what the quiz is about;
-    - On entering the site the player sees a welcome page with a title and  a clear explanation of what the quiz is about.
+    - On entering the site the player sees a welcome page with a title and an explanation of what the quiz is about.
 2. Easily and intuitively understand how to start play
-    - The welcome page includes short clear instructions on how to play and a button that brings the player to the quiz page. 
+    - The welcome page includes instructions on how to play and a button that brings the player to the quiz page. 
 3. Easily and intuitively understand how to pick how many questions they want in the quiz;
-    - Before displaying the quiz questions the quiz lets the player pick the maximum number of questions they want to answer. Only when they have done this do the quiz questions appear. The maximum permitted is clearly displayed. IF the player attempted to eneter anything other than a number between 1 and 20 and alert displays.
+    - Before displaying the quiz questions the quiz makes the player pick the number of questions they want to answer. Only when they have done this do the quiz questions appear. The maximum permitted is clearly displayed. If the player attempts to enter anything other than a number between 1 and 20 an alert displays.
 4. Easily and intuitively understand how to answer the questions;
-    - The Question is clearly displayed on the page and the four options appear like cards.
+    - The question is clearly displayed on the page and the four options appear like cards.
 5. Understand when they answer correctly.
     - If the player clicks on the correct answer the background turns green. If they select an incorrect answer the background turns red. 
 6. See the correct answer if they answer incorrectly.
@@ -103,6 +103,7 @@ It was viewed on a variety of devices. Friends and family members reviewed the q
 ## Changes over course of development
 Initially the site did not have a means of displaying the correct answer when a player answered incorrectly but following feedback from players it was decided to include this.
 ## Known Bugs
+No errors displaying on console during use and no known bugs identified to date.
 ## Deployment
 ### The project was deployed to GitHub Pages in the following way. 
 1.	By logging in to the [GitHub Repository](https://github.com/).
@@ -130,7 +131,7 @@ The  GitHub Repository can be forked to make a copy of the original repository o
 The favicon emoji originated from [](https://twemoji.twitter.com/)
 ## Acknowledgements
 I would like to thank my mentor Chris Quinn whose advice is always perfectly judged.
-I would like to thank many tutors in Code Institute for being unfailingly helpful, patient and without whom I never would have got this far. 
+I would like to thank many tutors in Code Institute for being unfailingly helpful, patient and knowledgeable and without whom I never would have got this far. 
 I would like to thank Aukje from Code Institute for her [excellent presentation](https://us02web.zoom.us/rec/play/MCuNmtPISEPZ8HKoaFOPfV0aK0lEW1PdPp4oOc6qMgDKZJlM8R25CeYN9px-Sl5Igy9MH6t84U91Qqb0.TLaMAiPKcepOyIei?startTime=1613671536000&_x_zm_rtaid=Yutxy3GTQ6aVY5AYPIL9pw.1621494089473.7c91fa9f055bf41582324f20a1697373&_x_zm_rhtaid=590) on preparation for MS2 projects that helped me enormously is getting started.
-I would like to thank my fearless family and friends for support and feedback and on the quiz.
+I would like to thank my fearless family and friends for all their support and feedback.
 

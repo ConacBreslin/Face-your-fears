@@ -1,3 +1,4 @@
+// jshint esversion: 6
 let questions= [
     { phobia : "Aerophobia",
         choiceA : {name:"Flying", icon:'<i class="fas fa-plane"></i>'},
