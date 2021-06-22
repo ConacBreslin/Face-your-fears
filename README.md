@@ -66,10 +66,13 @@ In the future the site could be improved by linking to an API to provide the que
 - [Google Fonts](https://fonts.google.com/) was used to choose and import the font.
 - The colour palette was generated using [coolors.co](https://coolors.co/).
 - Foreground/Backgound contrast was checked using [contrast-ratio.com](https://contrast-ratio.com/). 
-- The favicon was downloaded from [favicon.io](https://favicon.io/favicon-generator/).
+- The favicon was downloaded from [favicon.io](https://favicon.io/favicon-generator/) and originated from [twemoji](https://twemoji.twitter.com/).
 - The logo was created on [zyro.com](https://logo.zyro.com/).
 - The following tutorials from [James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2405s) and [codeexplained.org](https://www.youtube.com/watch?v=49pYIMygIcU) were followed in designing the features of the quiz.
 - The following websites were used for problem solving [stackoverflow.com](https://stackoverflow.com/), [w3schools.com](https://www.w3schools.com/), [tutsmake.com](https://www.tutsmake.com/), [geeksforgeeks.org](https://www.geeksforgeeks.org/), [scrimba.com](https://scrimba.com/) and [teamtreehouse.com](https://teamtreehouse.com/community/why-does-jshint-give-me-these-warnings-about-es6) was used to resolve jshint errors.
+- I took much inspiration from the following quiz tutorials [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), [James Q Quick ](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2850s).
+- The phobias were taken from [www.verywellmind.com](https://www.verywellmind.com/list-of-phobias-2795453).
+- The fauxbias were taken from [letterpile.com](https://letterpile.com/humor/Fun-Fictional-and-Humorousl-Phobias) and [inherentlyfunny.com](https://www.inherentlyfunny.com/cat-94-funny_phobias.html)
 ## Testing.
 Bugs identified - during development and testing the bugs identified and corrected are listed here []().
 ### Validation
@@ -127,8 +130,7 @@ The  GitHub Repository can be forked to make a copy of the original repository o
 5.	Changing the current working directory to the location where you want the cloned directory to be made.
 6.	Typing git clone, and pasting the URL copied in Step 3.
 7.	Pressing Enter to create the local clone.## Credits
-- I took much inspiration from the following quiz tutorials [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), [James Q Quick ](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU), [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2850s).
-The favicon emoji originated from [](https://twemoji.twitter.com/)
+
 ## Acknowledgements
 I would like to thank my mentor Chris Quinn whose advice is always perfectly judged.
 I would like to thank many tutors in Code Institute for being unfailingly helpful, patient and knowledgeable and without whom I never would have got this far. 

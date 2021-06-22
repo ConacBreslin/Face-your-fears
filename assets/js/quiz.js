@@ -21,13 +21,14 @@ var correctAnswer;
 let currentQuestionNumber = 0;
 let currentQuestion;
 let score = 0;
-let availableQuesions = [];
+let availableQuestions;
 let maxQuestions;
 let classToApply;
 let count = 10;
 let questionTime = 10;
 let timer;
 let readyToClickAgain = false;
+
 
 //set focus to input box
 playerPickNumber.focus();
@@ -107,7 +108,7 @@ function checkAnswer(event) {
         setTimeout(function (event) {
             targetElement.classList.remove(classToApply);
             renderQuestion();
-        }, 1000);
+        }, 1500);
     } else {
         classToApply = "incorrect";
         targetElement.classList.add(classToApply);

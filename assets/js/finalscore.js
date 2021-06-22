@@ -19,7 +19,9 @@ let phunnyFauxbias = ['"Nomophobia" - The fear not having a working mobile phone
 '"Condylacousticophobia" - The fear of the sound of cracking knuckles.',
 '"Gowiththeflowbia" - The fear of being relaxed.',
 '"Arachnurinalphobia" - The fear of spiders in your toilet.',
-'"Hippopotomonstrosesquippedaliophobia" - The fear of long words.'
+'"Hippopotomonstrosesquippedaliophobia" - The fear of long words.',
+'"Abcdefghijklmnoqrstuvwxyzphobia" - The fear of a single missing letter.',
+'"Arachnurinalphobia" - The fear of spiders in your toilet.',
 ];
 
 

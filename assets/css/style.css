@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
 
-
 body {
     font-family:  'Vesper Libre', serif;
     background-color: #d2d4c8;
     color: #001a4d; 
     font-size: 1.5rem;
     word-wrap: break-word;
-    }
+}
 
 h1 {
-    
     font-weight: 700;
     margin: 1rem 0 1.5rem;
 }
@@ -20,9 +18,7 @@ h2 {
 
 ol {
     margin-bottom: 1rem;
-
 }
-
 
 .btn {
     background-color: #001a4d;
@@ -38,12 +34,10 @@ ol {
     border-color: #001a4d;
 }
 
-
 #welcome-subheading {
     background-color: #fff;
     border: 4px solid #001a4d;
     padding-top: 36px;
-
 }
 
 #play-instructions {
@@ -70,14 +64,12 @@ ol {
     width: 12rem;
     height: 1.2rem;
     border: 0.3rem solid #1a1b41;
-    margin-bottom: 2rem;
-    
+    margin-bottom: 2rem;  
 }
 #progressBarFull {
     height: 0.6rem;
     background-color: #1a1b41;
         width: 10%;
-   
 }
 
 #questionArea {
@@ -87,7 +79,7 @@ ol {
 
 #cardArea {
     justify-content: center;
- }
+}
 
 #timeRemainingArea {
     margin-top:1.5rem;
@@ -96,13 +88,13 @@ ol {
     margin: 1.5rem 0;
 }
 
-
 #congratsText {
     background-color: #fff;
 }
 
 #fauxbiaText {
     background-color: #d2d4c8;
+    padding: 15px;
 }
 
 @media only screen and (max-width: 720px) {
