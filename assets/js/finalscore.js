@@ -32,5 +32,5 @@ finalScoreText.innerHTML  = (finalScorePercent >= 80) ? `<p><i class="far fa-gri
 (finalScorePercent >= 20) ? `<p><i class="far fa-sad-tear"></i> Oh dear you scored ${finalScorePercent}%, You did horror-ifically.</p>`:
 `<p><i class="far fa-sad-cry"></i> Oh dear, you got a ph-'oh oh'-bia by scoring ${finalScorePercent}%.</p>`;
 
-phunnyFauxbiaText.innerHTML = `<p>Here is a random Phunny Fauxbia for you <br> ${randomPhunnyFauxbia} </p>`;
+phunnyFauxbiaText.innerHTML = `<p>Here is a Phunny Fauxbia for you <br> ${randomPhunnyFauxbia} </p>`;
 

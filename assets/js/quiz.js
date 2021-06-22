@@ -27,9 +27,11 @@ let count = 10;
 let questionTime = 10;
 let timer;
 
+
+//set focus to input box
+playerPickNumber.focus();
+
 // set maximum number of questions
-
-
 pickMax.addEventListener("click", setMaxNumber);
 
 function setMaxNumber(event) {
@@ -39,28 +41,22 @@ function setMaxNumber(event) {
         pickForm.classList.add("d-none");
         quizArea.classList.remove("d-none");
         startQuiz();
-            } else {
+    } else {
         alert("You must pick a number between 1 and 20");
         playerPickNumber.value = '';
     }
-    
 }
 
-
 //add event listeners to Options
-
 addEventListenersToOptions();
 
 function addEventListenersToOptions() {
     for (let i of options) {
         i.addEventListener('click', checkAnswer);
-
     }
-
 }
 
 // function to display question and options,increase current question number and update progressbar in hud, 
-
 function renderQuestion() {
     if (currentQuestionNumber >= maxQuestions) {
         localStorage.setItem("maxQuestions", maxQuestions);
@@ -70,7 +66,6 @@ function renderQuestion() {
     }
     count = questionTime;
     currentQuestionNumber++;
-
     hudQuestion.innerText = `Question ${currentQuestionNumber} of ${maxQuestions}`;
     //UpdateProgressBar
     progressBarFull.style.width = `${(currentQuestionNumber/maxQuestions) * 100}%`;
@@ -122,17 +117,13 @@ function checkAnswer(event) {
 }
 
 //code to run all steps of quiz
-
 function startQuiz() {
     score = 0;
     currentQuestionNumber = 0;
-    //set focus to inout box
-    playerPickNumber.focus();
     // move all questions from question.js to available questions array
     availableQuestions = [...questions];
     // display question and options and increase current question number
     renderQuestion();
     // call renderTimeRemaining every second
     timer = setInterval(renderTimeRemaining, 1000);
-
 }
