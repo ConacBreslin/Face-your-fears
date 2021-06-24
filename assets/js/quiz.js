@@ -110,7 +110,7 @@ function checkAnswer(event) {
     } else {
         classToApply = "incorrect";
         targetElement.classList.add(classToApply);
-        correctAnswerWas.innerHTML = `<p>The correct answer was ${currentQuestion.answer}</p>`;
+        correctAnswerWas.innerHTML = `<p>The correct answer was <strong>${currentQuestion.answer}</strong></p>`;
         setTimeout(function (event) {
             targetElement.classList.remove(classToApply);
             correctAnswerWas.innerHTML = '';
