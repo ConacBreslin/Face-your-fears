@@ -179,7 +179,7 @@ answer: "INSECTS"
 },
 { phobia : "Equinophobia",
 choiceA : {name:"Water", icon:'<i class="fas fa-water"></i>'},
-choiceB : {name:"Marraige", icon:'<i class="fas fa-ring"></i>'},
+choiceB : {name:"Marriage", icon:'<i class="fas fa-ring"></i>'},
 choiceC: {name:"Horses", icon:'<i class="fas fa-horse"></i>'},
 choiceD: {name:"The Moon", icon:'<i class="far fa-moon"></i>'},
 correct:"C",
@@ -189,9 +189,9 @@ answer: "HORSES"
 choiceA : {name:"Books", icon:'<i class="fas fa-book-open"></i>'},
 choiceB : {name:"Cats", icon:'<i class="fas fa-cat"></i>'},
 choiceC: {name:"Birds", icon:'<i class="fas fa-crow"></i>'},
-choiceD: {name:"Marraige", icon:'<i class="fas fa-ring"></i>'},
+choiceD: {name:"Marriage", icon:'<i class="fas fa-ring"></i>'},
 correct:"D",
-answer: "MARRAIGE"
+answer: "MARRIAGE"
 },
 { phobia : "Gynophobia",
 choiceA : {name:"Women", icon:'<i class="fas fa-female"></i>'},
@@ -227,7 +227,7 @@ answer: "WATER"
 },
 { phobia : "Iatrophobia",
 choiceA : {name:"Doctors", icon:'<i class="fas fa-user-md"></i>'},
-choiceB : {name:"Marraige", icon:'<i class="fas fa-ring"></i>'},
+choiceB : {name:"Marriage", icon:'<i class="fas fa-ring"></i>'},
 choiceC: {name:"Theatres", icon:'<i class="fas fa-theater-masks"></i>'},
 choiceD: {name:"Needles", icon:'<i class="fas fa-syringe"></i>'},
 correct:"A",
@@ -277,7 +277,7 @@ answer: "SMALL THINGS"
 choiceA : {name:"Ugliness", icon:'<i class="fas fa-frown-open"></i>'},
 choiceB : {name:"Being angry", icon:'<i class="far fa-angry"></i>'},
 choiceC: {name:"Germs", icon:'<i class="fas fa-head-side-cough"></i>'},
-choiceD: {name:"Marraige", icon:'<i class="fas fa-ring"></i>'},
+choiceD: {name:"Marriage", icon:'<i class="fas fa-ring"></i>'},
 correct:"C",
 answer: "GERMS"
 },
@@ -485,7 +485,7 @@ answer:"WASHING"
 { phobia : "Acousticophobia",
 choiceA : {name:"Music", icon:'<i class="fas fa-music"></i>'},
 choiceB : {name:"Noise", icon:'<i class="fas fa-bullhorn"></i>'},
-choiceC: {name:"Marraige", icon:'<i class="fas fa-ring"></i>'},
+choiceC: {name:"Marriage", icon:'<i class="fas fa-ring"></i>'},
 choiceD: {name:"Guitars", icon:'<i class="fas fa-guitar"></i>'},
 correct:"B",
 answer: "NOISE"
@@ -648,7 +648,7 @@ answer: "BLUSHING"
 choiceA : {name:"Germs", icon:'<i class="fas fa-viruses"></i>'},
 choiceB : {name:"Taste", icon:'<i class="far fa-grin-tongue"></i>'},
 choiceC: {name:"Fish", icon:'<i class="fas fa-fish"></i>'},
-choiceD: {name:"Marraige", icon:'<i class="fas fa-ring"></i>'
+choiceD: {name:"Marriage", icon:'<i class="fas fa-ring"></i>'
 },
 correct : "B",
 answer: "TASTE"

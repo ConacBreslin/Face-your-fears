@@ -45,6 +45,10 @@ ol {
     border: 2px solid #1a1b41;
 }
 
+#playerPickNumber {
+    height: 48px;
+}
+
 .option {
         border: 3px solid #001a4d;
         border-radius: 10%;
@@ -62,11 +66,11 @@ ol {
 }
 
 #hudQuestion {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 #hudScore {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 #progressBar {
