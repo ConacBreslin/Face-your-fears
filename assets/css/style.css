@@ -45,11 +45,12 @@ ol {
     border: 2px solid #1a1b41;
 }
 
-.option{
+.option {
         border: 3px solid #001a4d;
         border-radius: 10%;
         margin: 25px;
         padding-top: 15px;
+        font-weight: 800;
 }
 
 .correct {
@@ -58,6 +59,14 @@ ol {
 
 .incorrect {
     background-color: red;
+}
+
+#hudQuestion {
+    font-size: 1.75rem;
+}
+
+#hudScore {
+    font-size: 1.75rem;
 }
 
 #progressBar {
@@ -74,7 +83,8 @@ ol {
 
 #questionArea {
     margin-top: 1.5rem;
-   text-align: center;
+    font-weight: 800;
+   font-size: 2rem;
 }
 
 #cardArea {
