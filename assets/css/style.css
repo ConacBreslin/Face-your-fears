@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap");
 
 body {
-    font-family:  'Vesper Libre', serif;
+    font-family: "Vesper Libre", serif;
     background-color: #d2d4c8;
-    color: #001a4d; 
+    color: #001a4d;
     font-size: 1.5rem;
     word-wrap: break-word;
 }
@@ -12,6 +12,7 @@ h1 {
     font-weight: 700;
     margin: 1rem 0 1.5rem;
 }
+
 h2 {
     margin: 2rem;
 }
@@ -50,15 +51,15 @@ ol {
 }
 
 .option {
-        border: 3px solid #001a4d;
-        border-radius: 10%;
-        margin: 25px;
-        padding-top: 15px;
-        font-weight: 800;
+    border: 3px solid #001a4d;
+    border-radius: 10%;
+    margin: 25px;
+    padding-top: 15px;
+    font-weight: 800;
 }
 
 .correct {
- background-color: green;
+    background-color: green;
 }
 
 .incorrect {
@@ -77,18 +78,18 @@ ol {
     width: 12rem;
     height: 1.2rem;
     border: 0.3rem solid #1a1b41;
-    margin-bottom: 2rem;  
+    margin-bottom: 2rem;
 }
 #progressBarFull {
     height: 0.6rem;
     background-color: #1a1b41;
-        width: 10%;
+    width: 10%;
 }
 
 #questionArea {
     margin-top: 1.5rem;
     font-weight: 800;
-   font-size: 2rem;
+    font-size: 2rem;
 }
 
 #cardArea {
@@ -96,7 +97,7 @@ ol {
 }
 
 #timeRemainingArea {
-    margin-top:1.5rem;
+    margin-top: 1.5rem;
 }
 #finalScoreText {
     margin: 1.5rem 0;
@@ -117,6 +118,6 @@ ol {
     }
 
     #logo {
-      width: 10%;
+        width: 10%;
     }
-  }
+}
