@@ -1,6 +1,5 @@
 //Code on line 2 from teamtreehouse.com to help resolve jshint errors
 // jshint esversion: 6
-
 let phobia = document.getElementById("questionArea");
 let optionA = document.getElementById("A");
 let optionB = document.getElementById("B");
@@ -44,7 +43,7 @@ function setMaxNumber(event) {
         startQuiz();
     } else {
         alert("You must pick a number between 1 and 20");
-        playerPickNumber.value = "";
+        playerPickNumber.value = '';
     }
 }
 
@@ -53,23 +52,23 @@ addEventListenersToOptions();
 
 function addEventListenersToOptions() {
     for (let i of options) {
-        i.addEventListener("click", checkAnswer);
+        i.addEventListener('click', checkAnswer);
     }
 }
 
-// function to display question and options,increase current question number and update progressbar in hud,
+// function to display question and options,increase current question number and update progressbar in hud, 
 function renderQuestion() {
     if (currentQuestionNumber >= maxQuestions) {
         localStorage.setItem("maxQuestions", maxQuestions);
         localStorage.setItem("finalScore", score);
         //go to finalscore page
-        return window.location.assign("finalscore.html");
+        return window.location.assign('finalscore.html');
     }
     count = questionTime;
     currentQuestionNumber++;
     hudQuestion.innerText = `Question ${currentQuestionNumber} of ${maxQuestions}`;
     //UpdateProgressBar
-    progressBarFull.style.width = `${(currentQuestionNumber / maxQuestions) * 100}%`;
+    progressBarFull.style.width = `${(currentQuestionNumber/maxQuestions) * 100}%`;
     let questionIndex = Math.floor(Math.random() * availableQuestions.length); // create a random number based on number of questions available
     currentQuestion = availableQuestions[questionIndex];
     phobia.innerHTML = `<p>${currentQuestion.phobia} is the fear of ...</p>`; // set phobia to be guessed
@@ -77,7 +76,7 @@ function renderQuestion() {
     optionB.innerHTML = `<p>${currentQuestion.choiceB.icon}</p><p>${currentQuestion.choiceB.name}</p>`;
     optionC.innerHTML = `<p>${currentQuestion.choiceC.icon}</p><p>${currentQuestion.choiceC.name}</p>`;
     optionD.innerHTML = `<p>${currentQuestion.choiceD.icon}</p><p>${currentQuestion.choiceD.name}</p>`;
-    // sets four different options
+    // sets four different options 
     correctAnswer = currentQuestion.correct;
     availableQuestions.splice(questionIndex, 1); //remove question used from available question array
     readyToClickAgain = true;
@@ -114,7 +113,7 @@ function checkAnswer(event) {
         correctAnswerWas.innerHTML = `<p>The correct answer was ${currentQuestion.answer}</p>`;
         setTimeout(function (event) {
             targetElement.classList.remove(classToApply);
-            correctAnswerWas.innerHTML = "";
+            correctAnswerWas.innerHTML = '';
             renderQuestion();
         }, 1500);
     }
@@ -123,8 +122,7 @@ function checkAnswer(event) {
 //code to run all steps of quiz
 function startQuiz() {
     score = 0;
-    currentQuestionNumber = 0;
-    // move all questions from question.js to available questions array
+    currentQuestionNumber = 0;    // move all questions from question.js to available questions array
     availableQuestions = [...questions];
     // display question and options and increase current question number
     renderQuestion();

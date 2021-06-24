@@ -76,8 +76,8 @@ In the future the site could be improved by linking to an API to provide the que
 ## Testing.
 Bugs identified - during development and testing the bugs identified and corrected are listed here []().
 ### Validation
-- HTML and CSS.The quiz’s html validation was tested by direct input into [validator.w3.org](https://validator.w3.org/). The errors identified and fixes are documented [here](assets/images/TOBEADDED).  The quiz’s css was tested by direct input into [jigsaw.w3.org](https://jigsaw.w3.org/css-validator/). The errors identified and fixes are documented [here](assets/images/TOBEADDED).
-The javaScript in the .js files was checked by dirrect input into [jshint](https://jshint.com/). The errors identified and fixes are documented [here](assets/images/TOBEADDED).
+- HTML and CSS. All three hmtl pages of the quiz were tested by direct input into [validator.w3.org](https://validator.w3.org/) and it had no errors or warnings to show. The quiz’s css was tested by direct input into [jigsaw.w3.org](https://jigsaw.w3.org/css-validator/) and it found now errors. 
+The javaScript in all the .js files was checked by direct input into [jshint](https://jshint.com/). The errors identified were corrected until no more corrections could be made. There were residual warnings about unused varaibles that has to be left as the variables were used in the code. The final jshint report can be viewed [here](assets/images/jshint).
 - Lighthouse Audits. The quiz’s Performance, Accessibility, Best Practices and SEO were assessed by [Chrome Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) and the results of this are [here](assets/images/TOBEADDED).
 - Manual Testing. Extensive use was made of console.log() at every step of the functionality development and each time an error was noted it was addressed ebfore proceeeding.
 The quiz was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
