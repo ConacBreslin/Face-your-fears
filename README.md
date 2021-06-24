@@ -6,15 +6,15 @@ Phobias are a common pub quiz category and this quiz was designed to give player
 ## User Experience (UX)
 A player would want to test their knowledge of phobias' definitions.
 On visiting the site they should be able to 
-1. Easily and intuitively understand what the quiz is about.
-2. Easily and intuitively understand how to start play.
-3. Easily and intuitively understand how to pick how many questions they want to answer in the quiz.
-4. Easily and intuitively understand how to answer the questions.
+1. Understand what the quiz is about.
+2. Understand how to start play.
+3. Understand how to pick how many questions they want to answer in the quiz.
+4. Understand how to answer the questions.
 5. Understand when they answer correctly.
 6. See the correct answer if they answer incorrectly.
-7. Follow their progress  throughout the quiz.
+7. Follow their progress through the quiz.
 8. Understand their performance on the final page.
-9. Be able to  play again or quit the game at the end.
+9. Be able to play again or quit the game at the end.
 ## Strategy
 The quiz should be a simple and attractive design with sufficient interactivity to engage players of any age or ability.
 
@@ -27,19 +27,19 @@ Non-functional requirements; 	The quiz should be simple, attractive and intuitiv
 The quiz will have 3 pages, A welcome page, a quiz page and a page for the final result. The quiz should automatically usher the player through all the stages of the quiz once they start through to the end. At the end they should be able to quit or replay.
 ## Skeleton
 The welcome page  explains what the quiz is about and how to play and a button to get started. 
-The quiz page starts with the player picking how many questions they want to answer. It then displays a question, 4 answer options,  a progress bar, a score tally and a timer. Once the player selects an answer the quiz will indicate if it is correct or incorrect by changing the background colour, update the score, progress bar and reset the timer It will display the correct answer the answer was incorrect and will continue to display a new questions until the player has answered the number of questions they initially selected.
+The quiz page starts with the player picking how many questions they want to answer. It then displays a question, 4 answer options,  a progress bar, a score tally and a timer. Once the player selects an answer the quiz will indicate if it is correct or incorrect by changing the background colour, update the score, progress bar and reset the timer It will display the correct answer if the answer was incorrect and will continue to display a new questions until the player has answered the number of questions they initially selected.
 The links to the wireframes can be accessed [here](assets/images/wireframes.pdf). 
 ## Surface/Design
 ### Imagery
 The overall image of the site was to be kept clear, simple and intuitive.
 ### Colour scheme
-It was important to keep the colour scheme of the quiz extremely simple. Information on the [psychology of colours](https://www.vandelaydesign.com/the-psychology-of-color-in-web-design/) in website design indicates that blue can help convey trustworthiness and so a dark shade of blue was picked for the font. A [minimum contrast ratio](https://coolors.co/contrast-checker/001a4d-d2d4c8) of 4.5:1 for small text and 3:1 for large text is recommended. This site wanted a strong but not too stark contrast. The contrast ratio of the site is [11.14](assets/images/contrastratio.png). 
+It was important to keep the colour scheme of the quiz extremely simple. Information on the [psychology of colours](https://www.vandelaydesign.com/the-psychology-of-color-in-web-design/) in website design indicates that blue can help convey trustworthiness and so a dark shade of blue was picked for the font. A [minimum contrast ratio](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast) of 4.5:1 for small text and 3:1 for large text is recommended. This site wanted a strong but not too stark contrast. The contrast ratio of the site is [11.14](assets/images/contrastratio.png). 
 ### Typography
 Information on the [psychology of fonts](https://fabrikbrands.com/font-psychology-and-typography-inspiration-in-logo-design) indicated that a serif font can  convey respectability. With this in mind the Vesper Libre font was selected in [Google Fonts](https://fonts.google.com/) for its simplicity.
 ## Features
 - Responsiveness on all device sizes.
 - A button on first page to bring the player to the quiz page.
-- An input at the start of the quiz to allow the player to select the number of questions they want to answer up to a maximum.
+- An input at the start of the quiz to allow the player to select the number of questions they want to answer up to a maximum of 20.
 - A means of the quiz only displaying after player has selected a number of questions between 1 and 20.
 - An alert if player tries to pick anything other than a number between 1 and 20.
 - A means of displaying a random question and four answer options from the question bank and then removing that question from the question bank to avoid duplication.
@@ -51,7 +51,7 @@ Information on the [psychology of fonts](https://fabrikbrands.com/font-psycholog
 - A means of the quiz moving on to the next question after 10 seconds if player doesn't answer.
 - A means of displaying the final result and a button to allow the player to play again or quit.
 ## Future features
-In the future the site could be improved by linking to an API to provide the questions rather than having a large question bank on the site. A high score section could be included. 
+In the future the site could link to an API to provide the questions rather than having a large question bank on the site. A high score section could be included. 
 ## Languages used
 [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
@@ -70,43 +70,41 @@ In the future the site could be improved by linking to an API to provide the que
 - The logo was created on [zyro.com](https://logo.zyro.com/).
 - The following tutorials from [James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2405s) and [codeexplained.org](https://www.youtube.com/watch?v=49pYIMygIcU) were followed in designing the features of the quiz.
 - The following websites were used for problem solving [stackoverflow.com](https://stackoverflow.com/), [w3schools.com](https://www.w3schools.com/), [tutsmake.com](https://www.tutsmake.com/), [geeksforgeeks.org](https://www.geeksforgeeks.org/), [scrimba.com](https://scrimba.com/) and [teamtreehouse.com](https://teamtreehouse.com/community/why-does-jshint-give-me-these-warnings-about-es6).
-- The phobias were taken from [www.verywellmind.com](https://www.verywellmind.com/list-of-phobias-2795453).
-- The fauxbias were taken from [letterpile.com](https://letterpile.com/humor/Fun-Fictional-and-Humorousl-Phobias) and [inherentlyfunny.com](https://www.inherentlyfunny.com/cat-94-funny_phobias.html).
 - The code was formatted using [webformatter.com](https://webformatter.com/html).
+- The fauxbias were taken from [letterpile.com](https://letterpile.com/humor/Fun-Fictional-and-Humorousl-Phobias) and [inherentlyfunny.com](https://www.inherentlyfunny.com/cat-94-funny_phobias.html).
+
 ## Testing.
 Bugs identified - during development and testing the bugs identified and corrected are listed here []().
 ### Validation
-- HTML and CSS. All three hmtl pages of the quiz were tested by direct input into [validator.w3.org](https://validator.w3.org/) and it had no errors or warnings to show. The quiz’s css was tested by direct input into [jigsaw.w3.org](https://jigsaw.w3.org/css-validator/) and it found now errors. 
-The javaScript in all the .js files was checked by direct input into [jshint](https://jshint.com/). The errors identified were corrected until no more corrections could be made. There were residual warnings about unused varaibles that has to be left as the variables were used in the code. The final jshint report can be viewed [here](assets/images/jshint).
+- HTML and CSS. All pages of the quiz were tested by direct input into [validator.w3.org](https://validator.w3.org/) for html and [jigsaw.w3.org](https://jigsaw.w3.org/css-validator/) for css and errors identified were corrected until no errors were showing in either validator. 
+The javaScript in all the .js files was checked by direct input into [jshint](https://jshint.com/) and errors identified were corrected until no more corrections could be made. There were residual warnings about unused varaibles that has to be left as the variables were used in the code. The final jshint report can be viewed [here](assets/images/jshint).
 - Lighthouse Audits. The quiz’s Performance, Accessibility, Best Practices and SEO were assessed by [Chrome Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) and the results of this are [here](assets/images/TOBEADDED).
-- Manual Testing. Extensive use was made of console.log() at every step of the functionality development and each time an error was noted it was addressed ebfore proceeeding.
+- Manual Testing. Extensive use was made of console.log() at every step of the functionality development and each time an error was noted it was addressed before proceeeding.
 The quiz was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 It was viewed on a variety of devices. Friends and family members reviewed the quiz to identify bugs and give feedback on user experience. The code was submitted for peer-review in Code Institute's peer-code-review channel in [slack.com](https://app.slack.com/). 
 ### Testing User Stories from User Experience (UX) Section.
-1. Easily and intuitively understand what the quiz is about;
+1. Understand what the quiz is about;
     - On entering the site the player sees a welcome page with a title and an explanation of what the quiz is about.
-2. Easily and intuitively understand how to start play
+2. Understand how to start play;
     - The welcome page includes instructions on how to play and a button that brings the player to the quiz page. 
-3. Easily and intuitively understand how to pick how many questions they want in the quiz;
+3. Understand how to pick how many questions they want in the quiz;
     - Before displaying the quiz questions the quiz makes the player pick the number of questions they want to answer. Only when they have done this do the quiz questions appear. The maximum permitted is clearly displayed. If the player attempts to enter anything other than a number between 1 and 20 an alert displays.
-4. Easily and intuitively understand how to answer the questions;
+4. Understand how to answer the questions;
     - The question is clearly displayed on the page and the four options appear like cards.
-5. Understand when they answer correctly.
+5. Understand when they answer correctly;
     - If the player clicks on the correct answer the background turns green. If they select an incorrect answer the background turns red. 
-6. See the correct answer if they answer incorrectly.
+6. See the correct answer if they answer incorrectly;
     - If the player selects an incorrect answer the correct answer is displayed underneath the cards.
-7. Follow their progress easily throughout the quiz;
+7. Follow their progress through the quiz;
     - The current and maximum question numbers display and there is a progress bar to indicate how far through the quiz the player has progressed.
-7. Follow their score easily throughout the quiz.
-    - The score  is displayed beside the progress area. It starts at 0 an increases by 1 each time the player selects a correct answer.
-8. Understand their perforamnce on the final page.
+8. Understand their performance on the final page;
     - When the quiz is over the final page gives they player their final score percentage with an appropriately attached message.
-9. Be able to easily play again or quit the page at the end.
+9. Be able to easily play again or quit the page at the end;
     The final results page has buttons to allow the player to quit or play again.
 ## Changes over course of development
 Initially the site did not have a means of displaying the correct answer when a player answered incorrectly but following feedback from players it was decided to include this.
 ## Known Bugs
-No errors displaying on console during use and no known bugs identified to date.
+No errors displaying on console during use and no further bugs to those already identified and corrected.
 ## Deployment
 ### The project was deployed to GitHub Pages in the following way. 
 1.	By logging in to the [GitHub Repository](https://github.com/).
