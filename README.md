@@ -75,7 +75,7 @@ In the future the site could link to an API to provide the questions rather than
 - The fauxbias were found it [letterpile.com](https://letterpile.com/humor/Fun-Fictional-and-Humorousl-Phobias) and [inherentlyfunny.com](https://www.inherentlyfunny.com/cat-94-funny_phobias.html).
 
 ## Testing.
-Bugs identified during development and testing the bugs and their solutions can be seen [here](assets/images/buglog).
+Bugs identified during development and testing and their solutions can be seen [here](assets/images/buglog).
 ### Validation
 - HTML and CSS. All pages of the quiz were tested by direct input into [validator.w3.org](https://validator.w3.org/) for html and [jigsaw.w3.org](https://jigsaw.w3.org/css-validator/) for css and errors identified were corrected until no errors were showing in either validator. 
 The javaScript in all the .js files was checked by direct input into [jshint](https://jshint.com/) and errors identified were corrected until no more corrections could be made. There were residual warnings about unused varaibles that has to be left as the variables were used in the code. The final jshint report can be viewed [here](assets/images/jshint).
