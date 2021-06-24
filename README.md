@@ -35,7 +35,7 @@ The overall image of the site was to be kept clear, simple and intuitive.
 ### Colour scheme
 It was important to keep the colour scheme of the quiz extremely simple. Information on the [psychology of colours](https://www.vandelaydesign.com/the-psychology-of-color-in-web-design/) in website design indicates that blue can help convey trustworthiness and so a dark shade of blue was picked for the font. A [minimum contrast ratio](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast) of 4.5:1 for small text and 3:1 for large text is recommended. This site wanted a strong but not too stark contrast. The contrast ratio of the site is [11.14](assets/images/contrastratio.png). 
 ### Typography
-Information on the [psychology of fonts](https://fabrikbrands.com/font-psychology-and-typography-inspiration-in-logo-design) indicated that a serif font can  convey respectability. With this in mind the Vesper Libre font was selected in [Google Fonts](https://fonts.google.com/) for its simplicity.
+Information on the [psychology of fonts](https://fabrikbrands.com/font-psychology-and-typography-inspiration-in-logo-design) indicated that a serif font can  convey trust and respectability. With this in mind the Vesper Libre font was selected in [Google Fonts](https://fonts.google.com/) for its simplicity.
 ## Features
 - Responsiveness on all device sizes.
 - A button on first page to bring the player to the quiz page.
@@ -71,7 +71,8 @@ In the future the site could link to an API to provide the questions rather than
 - The following tutorials from [James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx), [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2405s) and [codeexplained.org](https://www.youtube.com/watch?v=49pYIMygIcU) were followed in designing the features of the quiz.
 - The following websites were used for problem solving [stackoverflow.com](https://stackoverflow.com/), [w3schools.com](https://www.w3schools.com/), [tutsmake.com](https://www.tutsmake.com/), [geeksforgeeks.org](https://www.geeksforgeeks.org/), [scrimba.com](https://scrimba.com/) and [teamtreehouse.com](https://teamtreehouse.com/community/why-does-jshint-give-me-these-warnings-about-es6).
 - The code was formatted using [webformatter.com](https://webformatter.com/html).
-- The fauxbias were taken from [letterpile.com](https://letterpile.com/humor/Fun-Fictional-and-Humorousl-Phobias) and [inherentlyfunny.com](https://www.inherentlyfunny.com/cat-94-funny_phobias.html).
+- The phobias were found in [verywellmind.com](https://www.verywellmind.com/list-of-phobias-2795453).
+- The fauxbias were found it [letterpile.com](https://letterpile.com/humor/Fun-Fictional-and-Humorousl-Phobias) and [inherentlyfunny.com](https://www.inherentlyfunny.com/cat-94-funny_phobias.html).
 
 ## Testing.
 Bugs identified - during development and testing the bugs identified and corrected can be seen [here](assets/images/buglog).
