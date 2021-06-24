@@ -119,7 +119,7 @@ let questions = [
         },
         {
             phobia: "Chionophobia",
-            choiceA: { name: "Cheese", icon: ' <i class="fas fa-cut"></i>' },
+            choiceA: { name: "Cheese", icon: '<i class="fas fa-cheese"></i>' },
             choiceB: { name: "Snow", icon: '<i class="fas fa-snowflake"></i>' },
             choiceC: { name: "The Moon", icon: '<i class="far fa-moon"></i>' },
             choiceD: { name: "Ugliness", icon: '<i class="fas fa-frown-open"></i>' },
@@ -869,7 +869,7 @@ let questions = [
         {
             phobia: "Sophophobia",
             choiceA: { name: "Sitting", icon: '<i class="fas fa-couch"></i>' },
-            chioceB: { name: "Learning", icon: '<i class="fab fa-leanpub"></i>' },
+            choiceB: { name: "Learning", icon: '<i class="fab fa-leanpub"></i>' },
             choiceC: { name: "Love", icon: '<i class="far fa-heart"></i>' },
             choiceD: { name: "Small Things", icon: '<i class="fas fa-search-minus"></i>' },
             correct: "B",
