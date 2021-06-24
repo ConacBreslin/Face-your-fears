@@ -32,7 +32,7 @@ finalScoreText.innerHTML  =
 (finalScorePercent >= 80) ? `<p><i class="far fa-grin-stars"></i> Congratulations! You scored ${finalScorePercent}%. You are frighteningly good!</p>`:
 (finalScorePercent >= 60 ) ? `<p><i class="far fa-smile-beam"></i> Well Done! You scored ${finalScorePercent}%. That is scarily good!</p>`:
 (finalScorePercent >= 40) ? `<p><i class="far fa-laugh"></i> You scored ${finalScorePercent}%. I'm afraid to say you could do better.</p>`:
-(finalScorePercent >= 20) ? `<p><i class="far fa-sad-tear"></i> Oh dear you scored ${finalScorePercent}%, You did horror-ifically.</p>`:
+(finalScorePercent >= 20) ? `<p><i class="far fa-sad-tear"></i> Oh dear, you scored ${finalScorePercent}%, You did horror-ifically.</p>`:
 `<p><i class="far fa-sad-cry"></i> Oh dear, you got a ph-'oh oh'-bia by scoring ${finalScorePercent}%.</p>`;
 
     
