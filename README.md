@@ -101,7 +101,7 @@ It was viewed on a variety of devices. Friends and family members reviewed the q
 8. Understand their performance on the final page;
     - When the quiz is over the final page gives they player their final score percentage with an appropriately attached message.
 9. Be able to easily play again or quit the page at the end;
-    The final results page has buttons to allow the player to quit or play again.
+    - The final results page has buttons to allow the player to quit or play again.
 ## Changes over course of development
 Initially the site did not have a means of displaying the correct answer when a player answered incorrectly but following feedback from players it was decided to include this.
 ## Known Bugs

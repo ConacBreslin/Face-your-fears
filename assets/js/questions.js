@@ -224,7 +224,7 @@ let questions = [
             choiceC: { name: "Fog", icon: '<i class="fas fa-smog"></i>' },
             choiceD: { name: "Amphibians", icon: '<i class="fas fa-frog"></i>' },
             correct: "A",
-            answer: "women",
+            answer: "WOMEN",
         },
         {
             phobia: "Heliophobia ",
