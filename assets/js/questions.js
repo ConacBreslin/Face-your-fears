@@ -834,7 +834,7 @@ let questions = [
             phobia: "Phengophobia",
             choiceA: { name: "Swimming", icon: '<i class="fas fa-swimmer"></i>' },
             choiceB: { name: "Sunshine", icon: '<i class="fas fa-sun"></i>' },
-            choiceC: { name: "ferns", icon: '<i class="fab fa-pagelines"></i>' },
+            choiceC: { name: "Ferns", icon: '<i class="fab fa-pagelines"></i>' },
             choiceD: { name: "Night", icon: '<i class="fas fa-moon"></i>' },
             correct: "B",
             answer: "SUNSHINE",
